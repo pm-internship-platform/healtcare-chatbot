@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthcare Chatbot</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Top Utility Bar -->
+  <div class="topbar">
+    <div class="left">
+      <span>🌐 Language: </span>
+      <select>
+        <option>English</option>
+        <option>हिन्दी</option>
+        <option>தமிழ்</option>
+        <option>తెలుగు</option>
+      </select>
+    </div>
+    <div class="right">
+      <button onclick="changeFontSize('increase')">A+</button>
+      <button onclick="changeFontSize('reset')">A</button>
+      <button onclick="changeFontSize('decrease')">A-</button>
+    </div>
+  </div>
+
+  <!-- Government Header Bar -->
+  <header class="govbar">
+    <div class="logo">
+      <img src="https://www.francisxavier.ac.in/cs-content/themes/fxec/images/logo.png" alt="Emblem" />
+    </div>
+    <div class="title">
+      <h1 style="font-size: 180%;">Ministry of HealthCare</h1>
+      <p>Government of XXXXXX (Undertaken)</p>
+    </div>
+    <div class="userinfo">
+      <p>👤 Logged in: Guest</p>
+      <p id="time"></p>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="mainnav">
+    <a href="index.html">Home</a>
+    <a href="#about">About</a>
+    <a href="#diseases">Health Tips</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main class="chatbot-container">
+    <h2>Welcome to the AI-Driven Health Chatbot</h2>
+
+    <!-- WhatsApp-like Chatbot Widget (self-contained) -->
+        <div id="chatbot-widget">
+        <style>
+            /* ===== Scoped to #chatbot-widget to avoid global leaks ===== */
+            #chatbot-widget {
+            --bg: #eae6df;
+            --panel: #ffffff;
+            --header: #075e54;
+            --header-accent: #128c7e;
+            --bot: #ffffff;
+            --user: #dcf8c6;
+            --text: #111;
+            --muted: #667781;
+            --shadow: 0 6px 18px rgba(0,0,0,.08);
+            font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+            max-width: 850px;
+            margin: 24px auto;
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            background:
+                linear-gradient(0deg, rgba(0,0,0,.02), rgba(0,0,0,.02)),
+                url('https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fb9qk3w41sqf1l0ccujfh.png'); /* subtle pattern */
+            background-color: var(--bg);
+            }
+            #chatbot-widget .chat-header {
+            display: flex; align-items: center; gap: 12px;
+            background: linear-gradient(90deg, var(--header), var(--header-accent));
+            color: #fff; padding: 12px 16px;
+            }
+            #chatbot-widget .chat-header img {
+            width: 36px; height: 36px; border-radius: 50%; object-fit: cover; background: #fff;
+            }
+            #chatbot-widget .chat-header .titles {
+            line-height: 1.1;
+            }
+            #chatbot-widget .chat-header .titles .name { font-weight: 700; }
+            #chatbot-widget .chat-header .titles .sub { font-size: 12px; opacity: .9; }
+
+            #chatbot-widget .chat-body {
+            height: 58vh; min-height: 380px; max-height: 70vh;
+            overflow-y: auto; padding: 18px 12px 12px;
+            display: flex; flex-direction: column; gap: 10px;
+            scroll-behavior: smooth;
+            }
+            #chatbot-widget .day-divider {
+            align-self: center; font-size: 12px; color: #fff; background: rgba(0,0,0,.25);
+            padding: 4px 10px; border-radius: 999px; margin: 4px 0 10px;
+            }
+
+            #chatbot-widget .msg {
+            max-width: 78%; padding: 8px 10px 6px; border-radius: 10px;
+            position: relative; font-size: 14px; color: var(--text);
+            box-shadow: 0 1px 0 rgba(0,0,0,.04);
+            word-wrap: break-word; line-height: 1.35;
+            }
+            #chatbot-widget .msg.bot  { background: var(--bot);  align-self: flex-start; border-top-left-radius: 4px; }
+            #chatbot-widget .msg.user { background: var(--user); align-self: flex-end;   border-top-right-radius: 4px; }
+
+            /* tails */
+            #chatbot-widget .msg.bot::after {
+            content: ""; position: absolute; left: -6px; top: 0;
+            border-width: 6px; border-style: solid;
+            border-color: transparent var(--bot) transparent transparent;
+            filter: drop-shadow(0 1px 0 rgba(0,0,0,.05));
+            }
+            #chatbot-widget .msg.user::after {
+            content: ""; position: absolute; right: -6px; top: 0;
+            border-width: 6px; border-style: solid;
+            border-color: transparent transparent transparent var(--user);
+            filter: drop-shadow(0 1px 0 rgba(0,0,0,.05));
+            }
+
+            #chatbot-widget .meta {
+            display: flex; gap: 6px; align-items: center;
+            color: var(--muted); font-size: 11px; margin-top: 4px;
+            }
+            #chatbot-widget .ticks {
+            font-size: 12px; opacity: .8;
+            }
+
+            /* typing bubble */
+            #chatbot-widget .typing { background: var(--bot); width: 72px; }
+            #chatbot-widget .dots { display: inline-flex; gap: 4px; align-items: center; }
+            #chatbot-widget .dot {
+            width: 6px; height: 6px; border-radius: 50%; background: #9aa0a6;
+            animation: bounce 1.2s infinite;
+            }
+            #chatbot-widget .dot:nth-child(2){ animation-delay: .2s; }
+            #chatbot-widget .dot:nth-child(3){ animation-delay: .4s; }
+            @keyframes bounce {
+            0%,80%,100% { transform: translateY(0); opacity: .5; }
+            40% { transform: translateY(-4px); opacity: 1; }
+            }
+
+            #chatbot-widget .chat-input {
+            display: flex; align-items: center; gap: 8px;
+            background: var(--panel); padding: 10px; border-top: 1px solid #e5e5e5;
+            }
+            #chatbot-widget .chat-input .field {
+            flex: 1; display: flex; align-items: center; gap: 8px;
+            background: #fff; border: 1px solid #e4e6eb; border-radius: 20px; padding: 8px 12px;
+            }
+            #chatbot-widget input[type="text"] {
+            border: none; outline: none; width: 100%; font-size: 15px; background: transparent;
+            }
+            #chatbot-widget .icon-btn, #chatbot-widget .send-btn {
+            border: none; background: transparent; cursor: pointer;
+            padding: 6px 10px; border-radius: 10px;
+            }
+            #chatbot-widget .send-btn {
+            background: var(--header); color: #fff; padding: 10px 14px; border-radius: 20px; font-weight: 700;
+            }
+            #chatbot-widget .icon-btn:hover { background: rgba(0,0,0,.05); }
+            #chatbot-widget .send-btn:hover { filter: brightness(1.05); }
+
+            @media (max-width: 640px) {
+            #chatbot-widget { border-radius: 0; max-width: 100%; margin: 0; }
+            #chatbot-widget .msg { max-width: 86%; }
+            #chatbot-widget .chat-body { height: calc(100vh - 220px); }
+            }
+        </style>
+
+        <!-- Header -->
+        <div class="chat-header">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Emblem_of_India.svg" alt="Emblem">
+            <div class="titles">
+            <div class="name">Health Assistant</div>
+            <div class="sub">Ministry of Health • Online</div>
+            </div>
+        </div>
+
+        <!-- Chat body -->
+        <div class="chat-body" id="chatlog">
+            <div class="day-divider">Today</div>
+            <div class="msg bot">
+            👋 Namaste! I’m your healthcare assistant. Ask about symptoms, prevention tips, or services.
+            <div class="meta">
+                <span class="time">09:00</span>
+            </div>
+            </div>
+        </div>
+
+        <!-- Input -->
+        <div class="chat-input">
+            <button class="icon-btn" title="Attach">📎</button>
+            <div class="field">
+            <input id="chatInput" type="text" placeholder="Type a message…" autocomplete="off" />
+            </div>
+            <button id="sendBtn" class="send-btn">Send</button>
+        </div>
+
+        <script>
+            (function ChatbotUI(){
+            const chatlog = document.getElementById('chatlog');
+            const input = document.getElementById('chatInput');
+            const sendBtn = document.getElementById('sendBtn');
+
+            function nowTime(){
+                const d = new Date();
+                return d.toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
+            }
+            function scrollToBottom(){
+                chatlog.scrollTop = chatlog.scrollHeight;
+            }
+            function msgEl(role, text){
+                const wrap = document.createElement('div');
+                wrap.className = 'msg ' + role;
+                wrap.innerHTML = `
+                ${text.replace(/\n/g,'<br>')}
+                <div class="meta"><span class="time">${nowTime()}</span>${role==='user' ? '<span class="ticks">✔✔</span>' : ''}</div>
+                `;
+                return wrap;
+            }
+            function typingEl(){
+                const t = document.createElement('div');
+                t.className = 'msg bot typing';
+                t.innerHTML = `<span class="dots"><span class="dot"></span><span class="dot"></span><span class="dot"></span></span>`;
+                return t;
+            }
+            function addUser(text){
+                chatlog.appendChild(msgEl('user', text));
+                scrollToBottom();
+            }
+            function addBot(text){
+                chatlog.appendChild(msgEl('bot', text));
+                scrollToBottom();
+            }
+
+            function fakeBotReply(userText){
+                // TODO: replace with real backend call
+                const t = typingEl();
+                chatlog.appendChild(t); scrollToBottom();
+                setTimeout(()=>{
+                t.remove();
+                // simple demo reply based on keywords
+                let reply = "I'm here to help with general guidance. For emergencies call 108.";
+                const s = userText.toLowerCase();
+                if(s.includes('fever')) reply = "For fever: rest, stay hydrated, and consider paracetamol as advised by a doctor. If fever > 3 days or >102°F, seek medical care.";
+                if(s.includes('covid')) reply = "COVID-19: wear masks in crowded places, stay up to date with vaccines, test if symptomatic, and isolate if positive.";
+                if(s.includes('diet') || s.includes('food')) reply = "Balanced diet tip: half plate veggies, quarter protein, quarter whole grains. Limit ultra-processed foods.";
+                addBot(reply);
+                }, 900 + Math.random()*700);
+            }
+
+            function send(){
+                const text = input.value.trim();
+                if(!text) return;
+                addUser(text);
+                input.value = '';
+                fakeBotReply(text);
+            }
+
+            sendBtn.addEventListener('click', send);
+            input.addEventListener('keydown', (e)=>{ if(e.key === 'Enter') send(); });
+
+            // Expose minimal API (optional)
+            window.chatbotUI = { addUser, addBot };
+            })();
+        </script>
+        </div>
+
+
+    <p>🚧 Chatbot functionality will be integrated here.</p>
+    <a href="index.html" class="back-btn">⬅ Back to Home</a>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Ministry of Healthcare | Government of XXXXX</p>
+  </footer>
+
+</body>
+</html>
