@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Health Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Health Chatbot</h1>
+
+        <!-- Auth Section -->
+        <div id="auth-section">
+            <input type="email" id="email" placeholder="Email">
+            <input type="text" id="username" placeholder="Username (register only)">
+            <input type="password" id="password" placeholder="Password">
+            <button id="register-btn">Register</button>
+            <button id="login-btn">Login</button>
+            <p id="auth-message"></p>
+        </div>
+
+        <!-- Chat Section -->
+        <div id="chat-section" style="display:none;">
+            <select id="provider">
+                <option value="openai">OpenAI GPT</option>
+                <option value="gemini">Gemini</option>
+                <option value="huggingface">HuggingFace</option>
+                <option value="rasa">Rasa</option>
+            </select>
+            <div id="chat-box"></div>
+            <input type="text" id="chat-input" placeholder="Type your message">
+            <button id="send-btn">Send</button>
+            <button id="logout-btn">Logout</button>
+        </div>
+
+        <!-- Survey Section -->
+        <div id="survey-section" style="display:none;">
+            <h2>Health Awareness Survey</h2>
+            <textarea id="survey-answers" placeholder="Enter your survey answers JSON"></textarea>
+            <button id="submit-survey">Submit Survey</button>
+            <p id="survey-message"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
