@@ -43,5 +43,21 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
 }
 
+  function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        includedLanguages: 'en,hi,ta,te',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+      }, 'google_translate_element');
+    }
+
+    function changeLanguage(lang) {
+      var selectField = document.querySelector(".goog-te-combo");
+      if (selectField) {
+        selectField.value = lang;
+        selectField.dispatchEvent(new Event("change"));
+      }
+    }
+
 // Auto slideshow
 setInterval(() => plusSlides(1), 6000);
