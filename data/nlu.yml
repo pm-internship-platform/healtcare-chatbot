@@ -1,18 +1,367 @@
-version: "3.0"
+version: "3.1"
+
 nlu:
-  - intent: greet
-    examples: |
-      - hi
-      - hello
-      - hey
-      - good morning
-  - intent: goodbye
-    examples: |
-      - bye
-      - goodbye
-      - see you later
-  - intent: ask_health
-    examples: |
-      - tell me about fever
-      - what is diabetes
-      - symptoms of cold
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+    - good morning
+    - good afternoon
+    - good evening
+    - hi there
+    - hello there
+    - hey there
+    - greetings
+    - what's up
+    - howdy
+    - hiya
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+    - talk to you later
+    - catch you later
+    - farewell
+    - take care
+    - until next time
+    - so long
+    - bye bye
+    - good bye
+    - see ya
+
+- intent: affirm
+  examples: |
+    - yes
+    - yeah
+    - yep
+    - correct
+    - right
+    - that's right
+    - exactly
+    - sure
+    - absolutely
+    - definitely
+    - of course
+    - indeed
+    - affirmative
+    - true
+
+- intent: deny
+  examples: |
+    - no
+    - nope
+    - not really
+    - incorrect
+    - wrong
+    - that's not right
+    - negative
+    - not exactly
+    - no way
+    - not at all
+    - false
+    - definitely not
+
+- intent: thank
+  examples: |
+    - thank you
+    - thanks
+    - thank you so much
+    - thanks a lot
+    - much appreciated
+    - I appreciate it
+    - grateful
+    - cheers
+    - thanks for the help
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - who are you?
+    - what are you?
+
+- intent: symptom_check
+  examples: |
+    - I have a [headache](symptom)
+    - I am feeling [dizzy](symptom)
+    - I have a [stomach ache](symptom)
+    - feeling [feverish](symptom)
+    - I have [chest pain](symptom)
+    - my [head hurts](symptom)
+    - I feel [nauseous](symptom)
+    - I have [back pain](symptom)
+    - experiencing [shortness of breath](symptom)
+    - I have [sore throat](symptom)
+    - feeling [tired](symptom)
+    - I have [joint pain](symptom)
+    - experiencing [muscle pain](symptom)
+    - I have [abdominal pain](symptom)
+    - feeling [weak](symptom)
+    - I have [leg pain](symptom)
+    - my [arm hurts](symptom)
+    - I have [shoulder pain](symptom)
+    - experiencing [neck pain](symptom)
+    - I have [knee pain](symptom)
+    - feeling [lightheaded](symptom)
+    - I have [migraine](symptom)
+    - experiencing [anxiety](symptom)
+    - I have [depression](symptom)
+    - feeling [stressed](symptom)
+    - I have [insomnia](symptom)
+    - experiencing [fatigue](symptom)
+    - I have [cough](symptom)
+    - experiencing [cold symptoms](symptom)
+    - I have [flu symptoms](symptom)
+    - feeling [congested](symptom)
+    - I have [runny nose](symptom)
+    - experiencing [sneezing](symptom)
+    - I have [skin rash](symptom)
+    - experiencing [itching](symptom)
+    - I have [swelling](symptom)
+    - feeling [bloated](symptom)
+    - I have [constipation](symptom)
+    - experiencing [diarrhea](symptom)
+    - I have [heartburn](symptom)
+    - feeling [acid reflux](symptom)
+    - I have [eye pain](symptom)
+    - experiencing [vision problems](symptom)
+    - I have [hearing problems](symptom)
+    - feeling [ear pain](symptom)
+    - I have [toothache](symptom)
+    - experiencing [dental pain](symptom)
+
+- intent: emergency
+  examples: |
+    - I have severe [chest pain](symptom)
+    - I can't breathe
+    - [severe pain](severity)
+    - urgent medical help
+    - I think I'm having a heart attack
+    - I'm having [difficulty breathing](symptom)
+    - severe [abdominal pain](symptom)
+    - I'm experiencing [severe bleeding](symptom)
+    - I think I broke my [bone](body_part)
+    - I'm having [severe allergic reaction](symptom)
+    - I'm experiencing [stroke symptoms](symptom)
+    - I have [severe burns](symptom)
+    - I'm [unconscious episodes](symptom)
+    - severe [head injury](symptom)
+    - I'm [choking](symptom)
+    - severe [poisoning symptoms](symptom)
+    - I'm having [seizures](symptom)
+    - severe [trauma](symptom)
+    - I'm experiencing [severe mental health crisis](symptom)
+
+- intent: inform
+  examples: |
+    - for [two days](duration)
+    - [since yesterday](duration)
+    - [about a week](duration)
+    - [3 hours](duration)
+    - [for months](duration)
+    - [just started](duration)
+    - [this morning](duration)
+    - [last night](duration)
+    - [30 minutes ago](duration)
+    - [chronic](duration)
+    - I'm [25 years old](age)
+    - I'm [45](age)
+    - I'm [female](gender)
+    - I'm [male](gender)
+    - it's [severe](severity)
+    - it's [mild](severity)
+    - it's [moderate](severity)
+    - [8 out of 10](severity)
+    - [very painful](severity)
+    - [barely noticeable](severity)
+    - my [head](body_part)
+    - my [chest](body_part)
+    - my [stomach](body_part)
+    - my [back](body_part)
+    - my [legs](body_part)
+    - my [arms](body_part)
+
+- intent: ask_health
+  examples: |
+    - can you help me with health questions?
+    - I need health information
+    - tell me about health
+    - health advice needed
+    - medical information please
+    - health consultation
+    - I have health concerns
+    - need medical guidance
+
+- intent: ask_for_help
+  examples: |
+    - help me
+    - I need help
+    - can you help?
+    - what can you do?
+    - how can you assist me?
+    - I'm not feeling well
+    - something is wrong
+    - I'm concerned about my health
+
+- intent: ask_appointment
+  examples: |
+    - should I see a doctor?
+    - do I need to see a doctor?
+    - when should I see a doctor?
+    - should I make an appointment?
+    - do I need medical attention?
+    - should I go to hospital?
+    - do I need emergency care?
+
+- intent: ask_medication
+  examples: |
+    - what medication should I take?
+    - can you recommend medicine?
+    - what pills should I take?
+    - any medication for this?
+    - over the counter medicine?
+    - pain relief medication?
+
+- intent: ask_prevention
+  examples: |
+    - how can I prevent this?
+    - prevention tips
+    - how to avoid this?
+    - what can I do to prevent?
+    - preventive measures
+    - how to stay healthy?
+
+- intent: provide_age
+  examples: |
+    - I am [25](age) years old
+    - I'm [45](age)
+    - [30](age) years old
+    - my age is [55](age)
+
+- intent: provide_gender
+  examples: |
+    - I am [male](gender)
+    - I am [female](gender)
+    - [man](gender)
+    - [woman](gender)
+
+- intent: restart
+  examples: |
+    - restart
+    - start over
+    - reset
+    - begin again
+    - clear everything
+    - new conversation
+
+- lookup: symptom
+  examples: |
+    - headache
+    - migraine
+    - dizziness
+    - nausea
+    - vomiting
+    - fever
+    - chills
+    - sweating
+    - fatigue
+    - weakness
+    - chest pain
+    - shortness of breath
+    - cough
+    - sore throat
+    - runny nose
+    - congestion
+    - sneezing
+    - abdominal pain
+    - stomach ache
+    - heartburn
+    - diarrhea
+    - constipation
+    - bloating
+    - back pain
+    - neck pain
+    - shoulder pain
+    - joint pain
+    - muscle pain
+    - leg pain
+    - arm pain
+    - knee pain
+    - ankle pain
+    - wrist pain
+    - skin rash
+    - itching
+    - swelling
+    - bruising
+    - cuts
+    - burns
+    - eye pain
+    - vision problems
+    - hearing loss
+    - ear pain
+    - toothache
+    - dental pain
+    - anxiety
+    - depression
+    - stress
+    - insomnia
+    - sleep problems
+
+- lookup: duration
+  examples: |
+    - minutes
+    - hours
+    - days
+    - weeks
+    - months
+    - years
+    - since yesterday
+    - since morning
+    - since last night
+    - just started
+    - ongoing
+    - chronic
+    - intermittent
+    - occasionally
+
+- lookup: severity
+  examples: |
+    - mild
+    - moderate
+    - severe
+    - unbearable
+    - slight
+    - intense
+    - sharp
+    - dull
+    - throbbing
+    - burning
+    - stabbing
+    - aching
+
+- lookup: body_part
+  examples: |
+    - head
+    - neck
+    - chest
+    - back
+    - stomach
+    - abdomen
+    - arms
+    - legs
+    - hands
+    - feet
+    - shoulders
+    - knees
+    - ankles
+    - wrists
+    - eyes
+    - ears
+    - throat
+    - mouth
+    - nose

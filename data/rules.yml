@@ -1,0 +1,75 @@
+version: "3.1"
+
+rules:
+# Greeting, goodbye, thanks, bot challenge
+- rule: respond to greeting
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: respond to goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: respond to thanks
+  steps:
+  - intent: thank
+  - action: utter_thank
+
+- rule: respond to bot challenge
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+# Emergency handling
+- rule: handle emergency immediately
+  condition:
+  - active_loop: null
+  steps:
+  - intent: emergency
+  - action: action_assess_emergency
+  - action: utter_emergency
+
+# Restart conversation
+- rule: restart conversation
+  steps:
+  - intent: restart
+  - action: action_restart
+  - action: utter_greet
+
+# Ask for help
+- rule: ask for help
+  steps:
+  - intent: ask_for_help
+  - action: utter_ask_symptom
+
+# Prevention tips
+- rule: handle prevention questions
+  steps:
+  - intent: ask_prevention
+  - action: action_provide_prevention_tips
+
+# Symptom form activation
+- rule: activate symptom form
+  condition:
+  - active_loop: null
+  steps:
+  - intent: symptom_check
+  - action: validate_symptom_form
+  - active_loop: validate_symptom_form
+
+# Symptom form submission
+- rule: submit symptom form
+  condition:
+  - active_loop: validate_symptom_form
+  steps:
+  - action: validate_symptom_form
+  - active_loop: null
+  - action: action_provide_health_advice
+
+# Fallback
+- rule: handle fallback
+  steps:
+  - intent: nlu_fallback
+  - action: utter_ask_rephrase

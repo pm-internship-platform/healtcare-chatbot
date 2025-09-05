@@ -1,18 +1,128 @@
+version: "3.1"
+
 intents:
   - greet
   - goodbye
   - affirm
   - deny
-  - ask_health
+  - symptom_check
+  - emergency
+  - inform
+  - ask_for_help
+  - thank
+  - bot_challenge
+  - ask_appointment
+  - ask_medication
+  - ask_prevention
+  - provide_age
+  - provide_gender
+  - restart
+
+entities:
+  - symptom
+  - duration
+  - severity
+  - age
+  - gender
+  - body_part
+  - medication
+  - time_of_day
+
+slots:
+  symptom:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: symptom
+  duration:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: duration
+  severity:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: severity
+  age:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: age
+  gender:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: gender
+  body_part:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: body_part
+  user_confirmed:
+    type: bool
+    mappings:
+      - type: from_intent
+        intent: affirm
+        value: true
+      - type: from_intent
+        intent: deny
+        value: false
 
 responses:
   utter_greet:
-    - text: "Hello! How can I help you today?"
+    - text: "Hello! I'm your AI Health Assistant. How are you feeling today?"
+    - text: "Hi there! I'm here to help you understand your symptoms. What's concerning you today?"
+
   utter_goodbye:
-    - text: "Goodbye! Take care."
-  utter_ask_health:
-    - text: "I can provide information on health topics. What do you want to know?"
+    - text: "Take care of yourself! If you have serious concerns, consult a healthcare professional."
+    - text: "Goodbye! Stay healthy and reach out if you need more guidance."
+
+  utter_ask_symptom:
+    - text: "What symptoms are you experiencing? Please describe them in detail."
+
+  utter_ask_duration:
+    - text: "How long have you been experiencing these symptoms?"
+
+  utter_ask_severity:
+    - text: "On a scale of 1-10, how severe is your discomfort?"
+
+  utter_ask_age:
+    - text: "May I ask your age? This helps me provide more accurate health information."
+
+  utter_ask_gender:
+    - text: "What is your gender? This helps in providing personalized advice."
+
+  utter_emergency:
+    - text: "🚨 EMERGENCY ALERT! 🚨 Please contact emergency services immediately!"
+
+  utter_ask_rephrase:
+    - text: "I didn't understand that. Could you rephrase your symptoms?"
+
+  utter_thank:
+    - text: "You're welcome! Remember, this is general guidance, not medical advice."
+
+  utter_iamabot:
+    - text: "I am an AI Health Assistant. I provide guidance but cannot replace professional medical advice."
+
+  utter_ask_continue:
+    - text: "Would you like to discuss other symptoms or health concerns?"
+
+  utter_confirm_symptoms:
+    - text: "Let me confirm: You have {symptom} for {duration}. Is this correct?"
+
+  utter_default:
+    - text: "You can ask me about symptoms, health advice, or when to seek medical care."
 
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+
+actions:
+  - action_provide_health_advice
+  - action_assess_emergency
+  - action_validate_symptom_slot
+  - action_provide_prevention_tips
+  - action_suggest_next_steps
+  - validate_symptom_form
+  - action_reset_slots

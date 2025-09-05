@@ -1,0 +1,104 @@
+version: "3.1"
+
+stories:
+- story: basic greeting and symptom check
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: symptom_check
+    entities:
+    - symptom: "headache"
+  - action: validate_symptom_form
+  - active_loop: null
+  - action: action_provide_health_advice
+
+- story: emergency situation
+  steps:
+  - intent: emergency
+    entities:
+    - symptom: "chest pain"
+    - severity: "severe"
+  - action: action_assess_emergency
+  - action: utter_emergency
+
+- story: complete health consultation
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_for_help
+  - action: utter_ask_symptom
+  - intent: inform
+    entities:
+    - symptom: "stomach ache"
+  - action: validate_symptom_form
+  - active_loop: null
+  - action: action_provide_health_advice
+  - action: action_suggest_next_steps
+
+- story: symptom with follow-up questions
+  steps:
+  - intent: symptom_check
+    entities:
+    - symptom: "back pain"
+  - action: validate_symptom_form
+  - active_loop: null
+  - action: action_provide_health_advice
+  - intent: ask_appointment
+  - action: action_suggest_next_steps
+
+- story: ask for prevention tips
+  steps:
+  - intent: symptom_check
+    entities:
+    - symptom: "headache"
+  - action: validate_symptom_form
+  - active_loop: null
+  - intent: ask_prevention
+  - action: action_provide_prevention_tips
+
+- story: medication inquiry
+  steps:
+  - intent: symptom_check
+    entities:
+    - symptom: "sore throat"
+  - action: validate_symptom_form
+  - active_loop: null
+  - intent: ask_medication
+  - action: action_provide_health_advice
+
+- story: bot challenge
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- story: thank and goodbye
+  steps:
+  - intent: thank
+  - action: utter_thank
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: restart conversation
+  steps:
+  - intent: restart
+  - action: action_restart
+  - action: utter_greet
+
+- story: wellness check with prevention
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_prevention
+  - action: action_provide_prevention_tips
+  - intent: thank
+  - action: utter_thank
+
+- story: mental health concern
+  steps:
+  - intent: symptom_check
+    entities:
+    - symptom: "anxiety"
+  - action: validate_symptom_form
+  - active_loop: null
+  - action: action_provide_health_advice
+  - action: action_suggest_next_steps
