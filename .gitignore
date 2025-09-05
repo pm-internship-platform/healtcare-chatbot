@@ -1,22 +1,25 @@
-# Python
+# Python bytecode
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
-*.env
+*.pyc
 
-# Virtual environment
+# Virtual environments
 .venv/
+backend/venv/
 
-# VS Code
-.vscode/
-
-# Rasa
-.rasa/cache/
-.rasa/tmp/
+# Rasa specific
+.rasa/
+data/db/
 models/
 
-# Database
-data/db/
-data/db/WiredTiger*
-*.lock
+# Logs
+*.log
+
+# Environment files
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
