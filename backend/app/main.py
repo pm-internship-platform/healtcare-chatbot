@@ -1,7 +1,8 @@
+# backend/app/main.py
 from fastapi import FastAPI
 
 # Import settings instance
-from app.config import settings
+from backend.app.config import settings
 
 # Import routers
 from backend.routes import chat, health, survey, auth

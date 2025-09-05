@@ -1,0 +1,18 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - ask_health
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I help you today?"
+  utter_goodbye:
+    - text: "Goodbye! Take care."
+  utter_ask_health:
+    - text: "I can provide information on health topics. What do you want to know?"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,10 +1,22 @@
-.env
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.env
+
+# Virtual environment
 .venv/
-.idea/
+
+# VS Code
 .vscode/
-__pycache__/
-*.pyc
-venv/
-.env
+
+# Rasa
+.rasa/cache/
+.rasa/tmp/
+models/
+
+# Database
+data/db/
+data/db/WiredTiger*
+*.lock

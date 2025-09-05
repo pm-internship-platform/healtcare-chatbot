@@ -1,7 +1,7 @@
 # backend/services/db_service.py
 
 from motor.motor_asyncio import AsyncIOMotorClient
-from app.config import settings  # import the settings instance
+from backend.app.config import settings  # import the settings instance
 
 # Use settings.MONGO_URI instead of a standalone MONGO_URI
 MONGO_URI = settings.MONGO_URI

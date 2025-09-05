@@ -1,7 +1,7 @@
-# app/utils/logger.py
+# backend/utils/logger.py
 import logging
 import sys
-from app.config import settings
+from backend.app.config import settings
 
 def init_logging() -> logging.Logger:
     level = getattr(logging, settings.LOG_LEVEL.upper(), logging.INFO)
@@ -17,3 +17,6 @@ def init_logging() -> logging.Logger:
     for name in ("ai_health.db", "ai_health.openai", "ai_health.gemini", "ai_health.hf", "ai_health.rasa"):
         logging.getLogger(name).setLevel(level)
     return logger
+
+# 👇 Add this line so middleware can import `logger`
+logger = init_logging()
