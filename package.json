@@ -1,0 +1,12 @@
+{
+  "name": "ai-health-chatbot",
+  "version": "1.0.0",
+  "scripts": {
+    "build:css": "npx tailwindcss -i frontend/css/input.css -o frontend/css/tailwind.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "autoprefixer": "^10.4.0",
+    "daisyui": "^4.0.0"
+  }
+}

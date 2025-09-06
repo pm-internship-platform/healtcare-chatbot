@@ -1,0 +1,184 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey
+    - good morning
+    - good evening
+    - namaste
+    - namaskar
+    - ନମସ୍କାର
+    - ହେଲୋ
+    - नमस्ते
+    - हैलो
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you
+    - see ya
+    - catch you later
+    - ବାଇ
+    - ବିଦାୟ
+    - अलविदा
+    - फिर मिलेंगे
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - ହଁ
+    - ଠିକ୍
+    - हाँ
+    - सही
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - ନା
+    - ନଂ
+    - नहीं
+    - ना
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I'm good
+    - ଭଲ
+    - ମୁଁ ଭଲ
+    - अच्छा
+    - मैं ठीक हूं
+
+- intent: mood_unhappy
+  examples: |
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - awful
+    - terrible
+    - ଖୁଆପ୍
+    - ଭଲ ନଥିବା
+    - बुरा
+    - ठीक नहीं
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - ତୁମେ କଣ ବୋଟ?
+    - ତୁମେ ମନୁଷ୍ୟ କି?
+    - क्या आप बोट हैं?
+    - क्या आप इंसान हैं?
+
+- intent: ask_symptoms
+  examples: |
+    - what are the symptoms of [dengue](disease)?
+    - symptoms of [malaria](disease)
+    - how do I know if I have [covid](disease)?
+    - [ଡେଙ୍ଗିଉ](disease)ର ଲକ୍ଷଣ କଣ?
+    - [ମ୍ୟାଲେରିଆ](disease) ରୋଗର ଲକ୍ଷଣ
+    - [डेंगू](disease) के लक्षण क्या हैं?
+    - [मलेरिया](disease) के लक्षण
+
+- intent: ask_prevention
+  examples: |
+    - how to prevent [dengue](disease)?
+    - prevention for [malaria](disease)
+    - how to avoid getting [covid](disease)?
+    - [ଡେଙ୍ଗିଉ](disease) ରୋକଥାମ କେମିତି?
+    - [ମ୍ୟାଲେରିଆ](disease) ରୋଗରୁ କେମିତି ବଞ୍ଚିବେ?
+    - [डेंगू](disease) से कैसे बचें?
+    - [मलेरिया](disease) की रोकथाम
+
+- intent: ask_treatment
+  examples: |
+    - treatment for [dengue](disease)
+    - how to treat [malaria](disease)?
+    - medicine for [covid](disease)
+    - [ଡେଙ୍ଗିଉ](disease)ର ଚିକିତ୍ସା
+    - [ମ୍ୟାଲେରିଆ](disease) ରୋଗର ଚିକିତ୍ସା
+    - [डेंगू](disease) का इलाज
+    - [मलेरिया](disease) का उपचार
+
+- intent: ask_vaccination
+  examples: |
+    - vaccination schedule
+    - when to get vaccines for children?
+    - what vaccines does my child need?
+    - ଟିକା କେତେବେଳେ ଦେବା?
+    - ପିଲାଙ୍କ ଟିକା କାର୍ଯ୍ୟକ୍ରମ
+    - टीकाकरण कार्यक्रम
+    - बच्चों के टीके
+
+- intent: ask_health_alerts
+  examples: |
+    - health alerts in [Bhubaneswar](district)
+    - any outbreaks in [Cuttack](district)?
+    - disease warnings in my area
+    - [ଭୁବନେଶ୍ୱର](district)ରେ ସ୍ୱାସ୍ଥ୍ୟ ସତର୍କତା
+    - [କଟକ](district)ରେ କୌଣସି ରୋଗ ଚେତାବନୀ?
+    - [भुवनेश्वर](district) में स्वास्थ्य अलर्ट
+    - [कटक](district) में बीमारी की चेतावनी
+
+- intent: ask_disease_info
+  examples: |
+    - tell me about [dengue](disease)
+    - information about [malaria](disease)
+    - what is [covid](disease)?
+    - [ଡେଙ୍ଗିଉ](disease) ବିଷୟରେ ଜାଣିବା
+    - [ମ୍ୟାଲେରିଆ](disease) ବିଷୟରେ ତଥ୍ୟ
+    - [डेंगू](disease) के बारे में जानकारी
+    - [मलेरिया](disease) की जानकारी
+
+- intent: request_quiz
+  examples: |
+    - I want to take a quiz
+    - health quiz
+    - test my health knowledge
+    - ମୁଁ ଏକ କ୍ୱିଜ୍ ଦେବାକୁ ଚାହୁଁଛି
+    - ସ୍ୱାସ୍ଥ୍ୟ ଜ୍ଞାନ ପରୀକ୍ଷା
+    - मैं क्विज देना चाहता हूं
+    - स्वास्थ्य ज्ञान परीक्षण
+
+- intent: out_of_scope
+  examples: |
+    - what's the weather today?
+    - tell me a joke
+    - what's your favorite color?
+    - how old are you?
+    - ଆଜି ମୋସମ କେମିତି?
+    - ଗୋଟେ ରସିକ କଥା କୁହ
+    - ତୁମର ପ୍ରିୟ ରଙ୍ଗ କଣ?
+    - आज मौसम कैसा है?
+    - एक चुटकुला सुनाओ
+
+- intent: nlu_fallback
+  examples: |
+    - asdfasdf
+    - jkljkljkl
+    - 123456
+    - !@#$%^
+    - କଖଗଘଙ
+    - कखगघङ
