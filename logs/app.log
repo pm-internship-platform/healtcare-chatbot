@@ -1,0 +1,768 @@
+2025-09-06 16:15:09,627 - root - INFO - Connected to MongoDB successfully
+2025-09-06 16:15:09,628 - root - INFO - Application started
+2025-09-06 16:16:32,649 - root - INFO - MongoDB connection closed
+2025-09-06 16:16:32,650 - root - INFO - Application shutdown
+2025-09-06 16:16:50,915 - root - INFO - Connected to MongoDB successfully
+2025-09-06 16:16:50,916 - root - INFO - Application started
+2025-09-06 16:25:23,872 - root - INFO - Connected to MongoDB successfully
+2025-09-06 16:25:23,872 - root - INFO - Application started
+2025-09-06 16:29:17,064 - root - INFO - MongoDB connection closed
+2025-09-06 16:29:17,065 - root - INFO - Application shutdown
+2025-09-06 16:32:42,887 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 16:32:42,921 - root - INFO - Connected to MongoDB successfully
+2025-09-06 16:32:42,922 - root - INFO - Application started
+2025-09-06 16:33:06,163 - root - ERROR - Rasa API error: All connection attempts failed
+2025-09-06 16:33:06,622 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-09-06 16:33:06,624 - root - ERROR - OpenRouter API error: Client error '401 Unauthorized' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-09-06 16:33:06,624 - root - ERROR - Conversation save error: 'NoneType' object has no attribute 'insert_one'
+2025-09-06 16:33:06,625 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 16:33:16,072 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 16:33:18,380 - root - ERROR - Rasa API error: All connection attempts failed
+2025-09-06 16:33:18,704 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-09-06 16:33:18,775 - root - ERROR - OpenRouter API error: Client error '401 Unauthorized' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-09-06 16:33:18,786 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 16:33:18,788 - root - ERROR - Conversation save error: 'NoneType' object has no attribute 'insert_one'
+2025-09-06 16:33:18,789 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 16:33:33,518 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 16:33:35,830 - root - ERROR - Rasa API error: All connection attempts failed
+2025-09-06 16:33:36,276 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-09-06 16:33:36,278 - root - ERROR - OpenRouter API error: Client error '401 Unauthorized' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-09-06 16:33:36,290 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 16:33:36,291 - root - ERROR - Conversation save error: 'NoneType' object has no attribute 'insert_one'
+2025-09-06 16:33:36,291 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 16:33:55,199 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 16:33:57,507 - root - ERROR - Rasa API error: All connection attempts failed
+2025-09-06 16:33:58,030 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-09-06 16:33:58,032 - root - ERROR - OpenRouter API error: Client error '401 Unauthorized' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-09-06 16:33:58,041 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 16:33:58,042 - root - ERROR - Conversation save error: 'NoneType' object has no attribute 'insert_one'
+2025-09-06 16:33:58,042 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 16:34:25,150 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 16:34:27,477 - root - ERROR - Rasa API error: All connection attempts failed
+2025-09-06 16:34:27,864 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-09-06 16:34:27,866 - root - ERROR - OpenRouter API error: Client error '401 Unauthorized' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-09-06 16:34:27,877 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 16:34:27,878 - root - ERROR - Conversation save error: 'NoneType' object has no attribute 'insert_one'
+2025-09-06 16:34:27,879 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 16:34:32,397 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 16:34:34,695 - root - ERROR - Rasa API error: All connection attempts failed
+2025-09-06 16:34:34,992 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-09-06 16:34:34,994 - root - ERROR - OpenRouter API error: Client error '401 Unauthorized' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-09-06 16:34:35,002 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 16:34:35,004 - root - ERROR - Conversation save error: 'NoneType' object has no attribute 'insert_one'
+2025-09-06 16:34:35,004 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 16:34:45,311 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 16:34:47,623 - root - ERROR - Rasa API error: All connection attempts failed
+2025-09-06 16:34:48,108 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-09-06 16:34:48,110 - root - ERROR - OpenRouter API error: Client error '401 Unauthorized' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-09-06 16:34:48,121 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 16:34:48,122 - root - ERROR - Conversation save error: 'NoneType' object has no attribute 'insert_one'
+2025-09-06 16:34:48,122 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 16:35:24,363 - root - INFO - MongoDB connection closed
+2025-09-06 16:35:24,364 - root - INFO - Application shutdown
+2025-09-06 16:36:01,331 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 16:36:01,354 - root - INFO - Connected to MongoDB successfully
+2025-09-06 16:36:01,354 - root - INFO - Application started
+2025-09-06 16:36:11,592 - root - ERROR - Rasa API error: All connection attempts failed
+2025-09-06 16:36:12,078 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-09-06 16:36:12,080 - root - ERROR - OpenRouter API error: Client error '401 Unauthorized' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-09-06 16:36:12,080 - root - ERROR - Conversation save error: 'NoneType' object has no attribute 'insert_one'
+2025-09-06 16:36:12,080 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 16:36:15,713 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 16:36:18,036 - root - ERROR - Rasa API error: All connection attempts failed
+2025-09-06 16:36:18,424 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-09-06 16:36:18,425 - root - ERROR - OpenRouter API error: Client error '401 Unauthorized' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-09-06 16:36:18,437 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 16:36:18,438 - root - ERROR - Conversation save error: 'NoneType' object has no attribute 'insert_one'
+2025-09-06 16:36:18,438 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 18:08:23,507 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 18:08:23,530 - root - INFO - Connected to MongoDB successfully
+2025-09-06 18:08:23,530 - root - INFO - Application started
+2025-09-06 18:08:55,617 - root - ERROR - Rasa API error: All connection attempts failed
+2025-09-06 18:08:56,015 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-09-06 18:08:56,019 - root - ERROR - OpenRouter API error: Client error '401 Unauthorized' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-09-06 18:08:56,023 - root - ERROR - Conversation save error: 'NoneType' object has no attribute 'insert_one'
+2025-09-06 18:08:56,028 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 18:10:17,113 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 18:10:19,443 - root - ERROR - Rasa API error: All connection attempts failed
+2025-09-06 18:10:20,185 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-09-06 18:10:20,186 - root - ERROR - OpenRouter API error: Client error '401 Unauthorized' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-09-06 18:10:20,196 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 18:10:20,197 - root - ERROR - Conversation save error: 'NoneType' object has no attribute 'insert_one'
+2025-09-06 18:10:20,197 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 18:11:53,008 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 18:11:55,327 - root - ERROR - Rasa API error: All connection attempts failed
+2025-09-06 18:11:55,825 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-09-06 18:11:55,828 - root - ERROR - OpenRouter API error: Client error '401 Unauthorized' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-09-06 18:11:55,835 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 18:11:55,836 - root - ERROR - Conversation save error: 'NoneType' object has no attribute 'insert_one'
+2025-09-06 18:11:55,836 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 18:20:30,388 - root - INFO - MongoDB connection closed
+2025-09-06 18:20:30,389 - root - INFO - Application shutdown
+2025-09-06 18:20:37,523 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 18:20:37,540 - root - INFO - Connected to MongoDB successfully
+2025-09-06 18:20:37,540 - root - INFO - Application started
+2025-09-06 18:20:54,083 - root - ERROR - Rasa API error: All connection attempts failed
+2025-09-06 18:20:54,746 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-09-06 18:20:54,747 - root - ERROR - OpenRouter API error: Client error '401 Unauthorized' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-09-06 18:20:54,747 - root - ERROR - Conversation save error: 'NoneType' object has no attribute 'insert_one'
+2025-09-06 18:20:54,749 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 18:22:41,619 - root - INFO - MongoDB connection closed
+2025-09-06 18:22:41,620 - root - INFO - Application shutdown
+2025-09-06 18:22:47,851 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 18:22:47,872 - root - INFO - Connected to MongoDB successfully
+2025-09-06 18:22:47,872 - root - INFO - Application started
+2025-09-06 18:22:58,683 - root - ERROR - Rasa API error: All connection attempts failed
+2025-09-06 18:23:00,903 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-09-06 18:23:00,906 - root - ERROR - OpenRouter API error: Client error '400 Bad Request' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2025-09-06 18:23:00,906 - root - ERROR - Conversation save error: 'NoneType' object has no attribute 'insert_one'
+2025-09-06 18:23:00,906 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 18:24:10,072 - root - INFO - MongoDB connection closed
+2025-09-06 18:24:10,073 - root - INFO - Application shutdown
+2025-09-06 18:27:43,687 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 18:27:43,706 - root - INFO - Connected to MongoDB successfully
+2025-09-06 18:27:43,707 - root - INFO - Application started
+2025-09-06 18:27:52,990 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 18:27:52,991 - root - ERROR - Conversation save error: 'NoneType' object has no attribute 'insert_one'
+2025-09-06 18:27:52,991 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 18:28:08,064 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 18:28:08,065 - root - ERROR - Conversation save error: 'NoneType' object has no attribute 'insert_one'
+2025-09-06 18:28:08,066 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 18:28:12,305 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 18:28:12,306 - root - ERROR - Conversation save error: 'NoneType' object has no attribute 'insert_one'
+2025-09-06 18:28:12,307 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 18:28:20,171 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 18:28:20,172 - root - ERROR - Conversation save error: 'NoneType' object has no attribute 'insert_one'
+2025-09-06 18:28:20,172 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 18:28:27,576 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 18:28:30,009 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-09-06 18:28:30,011 - root - ERROR - OpenRouter API error: Client error '400 Bad Request' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2025-09-06 18:28:30,011 - root - ERROR - Conversation save error: 'NoneType' object has no attribute 'insert_one'
+2025-09-06 18:28:30,012 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 18:28:39,738 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 18:28:40,032 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 18:28:40,042 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 18:28:40,043 - root - ERROR - Conversation save error: 'NoneType' object has no attribute 'insert_one'
+2025-09-06 18:28:40,044 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 18:28:50,150 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 18:28:50,470 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 18:28:50,479 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 18:28:50,480 - root - ERROR - Conversation save error: 'NoneType' object has no attribute 'insert_one'
+2025-09-06 18:28:50,480 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 18:28:55,926 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 18:28:56,214 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 18:28:58,374 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-09-06 18:28:58,376 - root - ERROR - OpenRouter API error: Client error '400 Bad Request' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2025-09-06 18:28:58,387 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 18:28:58,387 - root - ERROR - Conversation save error: 'NoneType' object has no attribute 'insert_one'
+2025-09-06 18:28:58,387 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 18:30:07,118 - root - INFO - MongoDB connection closed
+2025-09-06 18:30:07,119 - root - INFO - Application shutdown
+2025-09-06 18:30:15,354 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 18:30:15,390 - root - INFO - Connected to MongoDB successfully
+2025-09-06 18:30:15,391 - root - INFO - Application started
+2025-09-06 18:31:08,257 - root - INFO - MongoDB connection closed
+2025-09-06 18:31:08,257 - root - INFO - Application shutdown
+2025-09-06 18:31:14,973 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 18:31:15,013 - root - INFO - Connected to MongoDB successfully
+2025-09-06 18:31:15,013 - root - INFO - Application started
+2025-09-06 18:31:26,965 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 18:31:27,281 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 18:31:27,291 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 18:31:27,293 - root - ERROR - Conversation save error: 'NoneType' object has no attribute 'insert_one'
+2025-09-06 18:31:27,293 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 18:31:37,597 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 18:31:37,899 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 18:31:37,908 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 18:31:37,908 - root - ERROR - Conversation save error: 'NoneType' object has no attribute 'insert_one'
+2025-09-06 18:31:37,908 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 18:31:46,311 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 18:31:46,643 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 18:31:46,651 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 18:31:46,652 - root - ERROR - Conversation save error: 'NoneType' object has no attribute 'insert_one'
+2025-09-06 18:31:46,653 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 18:31:51,934 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 18:31:52,241 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 18:31:54,396 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-09-06 18:31:54,399 - root - ERROR - OpenRouter API error: Client error '400 Bad Request' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2025-09-06 18:31:54,409 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 18:31:54,409 - root - ERROR - Conversation save error: 'NoneType' object has no attribute 'insert_one'
+2025-09-06 18:31:54,409 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 18:32:01,487 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 18:32:01,810 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 18:32:04,949 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-09-06 18:32:04,950 - root - ERROR - OpenRouter API error: Client error '400 Bad Request' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2025-09-06 18:32:04,961 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 18:32:04,962 - root - ERROR - Conversation save error: 'NoneType' object has no attribute 'insert_one'
+2025-09-06 18:32:04,963 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 18:52:41,136 - root - INFO - MongoDB connection closed
+2025-09-06 18:52:41,137 - root - INFO - Application shutdown
+2025-09-06 18:52:49,050 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 18:52:49,088 - root - INFO - Connected to MongoDB successfully
+2025-09-06 18:52:49,089 - root - INFO - Application started
+2025-09-06 18:52:59,817 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 18:52:59,818 - root - ERROR - Conversation save error: 'NoneType' object has no attribute 'insert_one'
+2025-09-06 18:52:59,818 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 18:53:17,438 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 18:53:17,439 - root - ERROR - Conversation save error: 'NoneType' object has no attribute 'insert_one'
+2025-09-06 18:53:17,439 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 18:53:41,512 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 18:53:43,659 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-09-06 18:53:43,662 - root - ERROR - OpenRouter API error: Client error '400 Bad Request' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2025-09-06 18:53:43,662 - root - ERROR - Conversation save error: 'NoneType' object has no attribute 'insert_one'
+2025-09-06 18:53:43,662 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 18:56:01,235 - root - INFO - MongoDB connection closed
+2025-09-06 18:56:01,235 - root - INFO - Application shutdown
+2025-09-06 18:56:03,717 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 18:56:03,746 - root - INFO - Connected to MongoDB successfully
+2025-09-06 18:56:03,746 - root - INFO - Application started
+2025-09-06 18:56:33,933 - root - INFO - MongoDB connection closed
+2025-09-06 18:56:33,934 - root - INFO - Application shutdown
+2025-09-06 18:56:35,864 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 18:56:35,884 - root - INFO - Connected to MongoDB successfully
+2025-09-06 18:56:35,886 - root - INFO - Application started
+2025-09-06 18:57:01,126 - root - INFO - MongoDB connection closed
+2025-09-06 18:57:01,126 - root - INFO - Application shutdown
+2025-09-06 18:57:02,843 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 18:57:02,861 - root - INFO - Connected to MongoDB successfully
+2025-09-06 18:57:02,862 - root - INFO - Application started
+2025-09-06 18:58:55,708 - root - INFO - MongoDB connection closed
+2025-09-06 18:58:55,708 - root - INFO - Application shutdown
+2025-09-06 18:58:57,767 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 18:58:57,782 - root - INFO - Connected to MongoDB successfully
+2025-09-06 18:58:57,783 - root - INFO - Application started
+2025-09-06 18:59:00,740 - root - INFO - MongoDB connection closed
+2025-09-06 18:59:00,740 - root - INFO - Application shutdown
+2025-09-06 19:15:02,408 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 19:15:02,430 - root - INFO - Connected to MongoDB successfully
+2025-09-06 19:15:02,430 - root - INFO - Application started
+2025-09-06 19:15:07,846 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 19:15:07,848 - root - ERROR - Conversations collection is not initialized
+2025-09-06 19:15:07,848 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 19:15:13,363 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:15:13,692 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 19:15:13,701 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:15:13,702 - root - ERROR - Conversations collection is not initialized
+2025-09-06 19:15:13,702 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 19:15:25,423 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:15:25,722 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 19:15:25,733 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:15:25,736 - root - ERROR - Conversations collection is not initialized
+2025-09-06 19:15:25,739 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 19:16:11,937 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:16:12,257 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 19:16:12,269 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:16:12,270 - root - ERROR - Conversations collection is not initialized
+2025-09-06 19:16:12,270 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 19:16:15,516 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:16:15,836 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 19:16:15,846 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:16:15,847 - root - ERROR - Conversations collection is not initialized
+2025-09-06 19:16:15,848 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 19:16:17,483 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:16:17,818 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 19:16:17,831 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:16:17,832 - root - ERROR - Conversations collection is not initialized
+2025-09-06 19:16:17,832 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 19:16:18,743 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:16:19,060 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 19:16:19,069 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:16:19,070 - root - ERROR - Conversations collection is not initialized
+2025-09-06 19:16:19,070 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 19:16:20,577 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:16:20,890 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 19:16:20,906 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:16:20,908 - root - ERROR - Conversations collection is not initialized
+2025-09-06 19:16:20,909 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 19:16:20,952 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:16:21,162 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:16:21,285 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 19:16:21,300 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:16:21,301 - root - ERROR - Conversations collection is not initialized
+2025-09-06 19:16:21,301 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 19:16:21,342 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:16:21,511 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 19:16:21,521 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:16:21,522 - root - ERROR - Conversations collection is not initialized
+2025-09-06 19:16:21,522 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 19:16:21,662 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 19:16:21,673 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:16:21,675 - root - ERROR - Conversations collection is not initialized
+2025-09-06 19:16:21,675 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 19:16:21,755 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:16:21,934 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:16:22,064 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 19:16:22,076 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:16:22,077 - root - ERROR - Conversations collection is not initialized
+2025-09-06 19:16:22,077 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 19:16:22,126 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:16:22,256 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 19:16:22,271 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:16:22,274 - root - ERROR - Conversations collection is not initialized
+2025-09-06 19:16:22,274 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 19:16:22,298 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:16:22,470 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 19:16:22,484 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:16:22,485 - root - ERROR - Conversations collection is not initialized
+2025-09-06 19:16:22,485 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 19:16:22,618 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 19:16:22,631 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:16:22,632 - root - ERROR - Conversations collection is not initialized
+2025-09-06 19:16:22,632 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 19:40:02,895 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 19:40:02,902 - root - ERROR - Conversations collection is not initialized
+2025-09-06 19:40:02,904 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 19:40:11,044 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:40:11,645 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 19:40:11,726 - root - ERROR - Bhashini API error: [Errno 11002] getaddrinfo failed
+2025-09-06 19:40:11,731 - root - ERROR - Conversations collection is not initialized
+2025-09-06 19:40:11,732 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 19:40:19,335 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:40:19,896 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 19:40:23,757 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-09-06 19:40:23,762 - root - ERROR - OpenRouter API HTTP error 400: {"error":{"message":"google/gemini-pro is not a valid model ID","code":400},"user_id":"user_32Hty2vjbPtmqQpv4H1mQPQjFzm"}
+2025-09-06 19:40:23,826 - root - ERROR - Bhashini API error: [Errno 11002] getaddrinfo failed
+2025-09-06 19:40:23,831 - root - ERROR - Conversations collection is not initialized
+2025-09-06 19:40:23,832 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 19:42:59,004 - root - INFO - MongoDB connection closed
+2025-09-06 19:42:59,004 - root - INFO - Application shutdown
+2025-09-06 19:57:11,484 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 19:57:11,491 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 19:57:11,570 - root - INFO - Connected to MongoDB successfully
+2025-09-06 19:57:11,570 - root - INFO - Application started
+2025-09-06 19:57:11,593 - root - INFO - Connected to MongoDB successfully
+2025-09-06 19:57:11,594 - root - INFO - Application started
+2025-09-06 19:57:20,701 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 19:57:20,703 - root - ERROR - Conversations collection is not initialized
+2025-09-06 19:57:20,703 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 19:57:27,761 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:57:28,376 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 19:57:28,434 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:57:28,439 - root - ERROR - Conversations collection is not initialized
+2025-09-06 19:57:28,440 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 19:57:31,628 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:57:32,199 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 19:57:33,979 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-09-06 19:57:33,982 - root - ERROR - OpenRouter API HTTP error 400: {"error":{"message":"google/gemini-pro is not a valid model ID","code":400},"user_id":"user_32Hty2vjbPtmqQpv4H1mQPQjFzm"}
+2025-09-06 19:57:34,041 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:57:34,044 - root - ERROR - Conversations collection is not initialized
+2025-09-06 19:57:34,044 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 19:58:05,729 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 19:58:05,772 - root - INFO - Connected to MongoDB successfully
+2025-09-06 19:58:05,773 - root - INFO - Application started
+2025-09-06 19:58:21,585 - root - ERROR - Rasa API error: All connection attempts failed
+2025-09-06 19:58:23,937 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-09-06 19:58:23,941 - root - ERROR - OpenRouter API HTTP error 400: {"error":{"message":"google/gemini-pro is not a valid model ID","code":400},"user_id":"user_32Hty2vjbPtmqQpv4H1mQPQjFzm"}
+2025-09-06 19:58:23,941 - root - ERROR - Conversations collection is not initialized
+2025-09-06 19:58:23,942 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 19:58:44,946 - root - ERROR - Rasa API error: All connection attempts failed
+2025-09-06 19:58:48,001 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-09-06 19:58:48,005 - root - ERROR - OpenRouter API HTTP error 400: {"error":{"message":"google/gemini-pro is not a valid model ID","code":400},"user_id":"user_32Hty2vjbPtmqQpv4H1mQPQjFzm"}
+2025-09-06 19:58:48,006 - root - ERROR - Conversations collection is not initialized
+2025-09-06 19:58:48,006 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 19:58:54,610 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:58:56,958 - root - ERROR - Rasa API error: All connection attempts failed
+2025-09-06 19:59:01,210 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 408 Request Timeout"
+2025-09-06 19:59:01,214 - root - ERROR - OpenRouter API HTTP error 408: {"error":{"message":"timeout","code":408}}
+2025-09-06 19:59:01,291 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:59:01,297 - root - ERROR - Conversations collection is not initialized
+2025-09-06 19:59:01,298 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 19:59:07,335 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:59:09,680 - root - ERROR - Rasa API error: All connection attempts failed
+2025-09-06 19:59:12,064 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-09-06 19:59:12,072 - root - ERROR - OpenRouter API HTTP error 400: {"error":{"message":"google/gemini-pro is not a valid model ID","code":400},"user_id":"user_32Hty2vjbPtmqQpv4H1mQPQjFzm"}
+2025-09-06 19:59:12,129 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 19:59:12,133 - root - ERROR - Conversations collection is not initialized
+2025-09-06 19:59:12,134 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 20:03:17,271 - root - INFO - MongoDB connection closed
+2025-09-06 20:03:17,271 - root - INFO - Application shutdown
+2025-09-06 20:03:26,666 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 20:03:26,710 - root - INFO - Connected to MongoDB successfully
+2025-09-06 20:03:26,711 - root - INFO - Application started
+2025-09-06 20:03:40,991 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:03:40,995 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:03:40,995 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 20:03:47,105 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:03:47,109 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:03:47,110 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 20:03:52,790 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:03:52,793 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:03:52,794 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 20:03:57,882 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:04:02,363 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-09-06 20:04:02,367 - root - ERROR - OpenRouter API HTTP error 400: {"error":{"message":"google/gemini-pro is not a valid model ID","code":400},"user_id":"user_32Hty2vjbPtmqQpv4H1mQPQjFzm"}
+2025-09-06 20:04:02,368 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:04:02,368 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 20:04:57,381 - root - INFO - MongoDB connection closed
+2025-09-06 20:04:57,381 - root - INFO - Application shutdown
+2025-09-06 20:05:01,871 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 20:05:01,927 - root - INFO - Connected to MongoDB successfully
+2025-09-06 20:05:01,928 - root - INFO - Application started
+2025-09-06 20:05:11,777 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:05:11,781 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:05:11,782 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 20:05:17,407 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:05:17,411 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:05:17,412 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 20:05:37,384 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:05:37,386 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:05:37,386 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 20:05:42,906 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:05:42,910 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:05:42,910 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 20:05:46,211 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:05:46,214 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:05:46,216 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 20:05:47,775 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:05:47,778 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:05:47,779 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 20:06:02,908 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:06:02,911 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:06:02,912 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 20:06:10,777 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:06:10,779 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:06:10,780 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 20:06:13,065 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:06:13,068 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:06:13,069 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 20:06:15,155 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:06:15,159 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:06:15,160 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 20:07:56,756 - root - INFO - MongoDB connection closed
+2025-09-06 20:07:56,756 - root - INFO - Application shutdown
+2025-09-06 20:08:00,004 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 20:08:00,060 - root - INFO - Connected to MongoDB successfully
+2025-09-06 20:08:00,061 - root - INFO - Application started
+2025-09-06 20:08:08,008 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:08:08,012 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:08:08,012 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 20:08:11,885 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:08:11,890 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:08:11,891 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 20:08:15,017 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:08:15,020 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:08:15,021 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 20:08:25,133 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:08:25,136 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:08:25,137 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 20:11:01,229 - root - INFO - MongoDB connection closed
+2025-09-06 20:11:01,230 - root - INFO - Application shutdown
+2025-09-06 20:11:47,792 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 20:11:47,848 - root - INFO - Connected to MongoDB successfully
+2025-09-06 20:11:47,848 - root - INFO - Application started
+2025-09-06 20:13:38,186 - root - INFO - MongoDB connection closed
+2025-09-06 20:13:38,187 - root - INFO - Application shutdown
+2025-09-06 20:13:51,151 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 20:13:51,196 - root - INFO - Connected to MongoDB successfully
+2025-09-06 20:13:51,197 - root - INFO - Application started
+2025-09-06 20:14:04,726 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:14:04,730 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:14:04,731 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 20:14:13,322 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:14:13,326 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:14:13,327 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 20:14:16,352 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:14:16,356 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:14:16,357 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 20:14:34,591 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:14:34,595 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:14:34,596 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 20:18:48,155 - root - INFO - MongoDB connection closed
+2025-09-06 20:18:48,155 - root - INFO - Application shutdown
+2025-09-06 20:18:50,471 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 20:18:51,899 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 20:18:51,937 - root - INFO - Connected to MongoDB successfully
+2025-09-06 20:18:51,938 - root - INFO - Application started
+2025-09-06 20:19:01,153 - root - INFO - MongoDB connection closed
+2025-09-06 20:19:01,154 - root - INFO - Application shutdown
+2025-09-06 20:19:03,514 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 20:19:03,563 - root - INFO - Connected to MongoDB successfully
+2025-09-06 20:19:03,563 - root - INFO - Application started
+2025-09-06 20:19:09,745 - root - ERROR - Chat processing error: 'Settings' object has no attribute 'BHASHINI_API_KEY'
+2025-09-06 20:19:12,926 - root - ERROR - Chat processing error: 'Settings' object has no attribute 'BHASHINI_API_KEY'
+2025-09-06 20:19:15,882 - root - ERROR - Chat processing error: 'Settings' object has no attribute 'BHASHINI_API_KEY'
+2025-09-06 20:20:07,552 - root - INFO - MongoDB connection closed
+2025-09-06 20:20:07,552 - root - INFO - Application shutdown
+2025-09-06 20:20:09,604 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 20:20:09,642 - root - INFO - Connected to MongoDB successfully
+2025-09-06 20:20:09,643 - root - INFO - Application started
+2025-09-06 20:20:09,975 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:20:09,977 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:20:09,977 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 20:20:15,440 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 20:20:15,797 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:20:15,806 - root - ERROR - Bhashini API error: [Errno 11001] getaddrinfo failed
+2025-09-06 20:20:15,807 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:20:15,807 - root - INFO - Chat processed for user anonymous, source: rasa
+2025-09-06 20:22:56,637 - root - INFO - MongoDB connection closed
+2025-09-06 20:22:56,637 - root - INFO - Application shutdown
+2025-09-06 20:25:26,556 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 20:25:26,607 - root - INFO - Connected to MongoDB successfully
+2025-09-06 20:25:26,608 - root - INFO - Application started
+2025-09-06 20:25:56,782 - root - INFO - MongoDB connection closed
+2025-09-06 20:25:56,783 - root - INFO - Application shutdown
+2025-09-06 20:25:59,817 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 20:25:59,848 - root - INFO - Connected to MongoDB successfully
+2025-09-06 20:25:59,848 - root - INFO - Application started
+2025-09-06 20:26:29,980 - root - INFO - MongoDB connection closed
+2025-09-06 20:26:29,980 - root - INFO - Application shutdown
+2025-09-06 20:26:32,222 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 20:26:32,255 - root - INFO - Connected to MongoDB successfully
+2025-09-06 20:26:32,255 - root - INFO - Application started
+2025-09-06 20:26:59,571 - root - INFO - MongoDB connection closed
+2025-09-06 20:26:59,572 - root - INFO - Application shutdown
+2025-09-06 20:27:01,302 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 20:27:01,338 - root - INFO - Connected to MongoDB successfully
+2025-09-06 20:27:01,339 - root - INFO - Application started
+2025-09-06 20:27:19,336 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:27:23,273 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-09-06 20:27:23,278 - root - ERROR - OpenRouter API HTTP error 400: {"error":{"message":"google/gemini-2.0-flash-thinking-exp:free is not a valid model ID","code":400},"user_id":"user_32Hty2vjbPtmqQpv4H1mQPQjFzm"}
+2025-09-06 20:27:23,279 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:27:23,279 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 20:27:38,974 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:27:42,113 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-09-06 20:27:42,115 - root - ERROR - OpenRouter API HTTP error 400: {"error":{"message":"google/gemini-2.0-flash-thinking-exp:free is not a valid model ID","code":400},"user_id":"user_32Hty2vjbPtmqQpv4H1mQPQjFzm"}
+2025-09-06 20:27:42,116 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:27:42,116 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 20:28:08,678 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:28:10,171 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-09-06 20:28:10,172 - root - ERROR - OpenRouter API HTTP error 400: {"error":{"message":"google/gemini-2.0-flash-thinking-exp:free is not a valid model ID","code":400},"user_id":"user_32Hty2vjbPtmqQpv4H1mQPQjFzm"}
+2025-09-06 20:28:10,173 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:28:10,173 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 20:28:28,413 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:28:29,870 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-09-06 20:28:29,882 - root - ERROR - OpenRouter API HTTP error 400: {"error":{"message":"google/gemini-2.0-flash-thinking-exp:free is not a valid model ID","code":400},"user_id":"user_32Hty2vjbPtmqQpv4H1mQPQjFzm"}
+2025-09-06 20:28:29,883 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:28:29,883 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 20:30:59,754 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:31:03,120 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 408 Request Timeout"
+2025-09-06 20:31:03,122 - root - ERROR - OpenRouter API HTTP error 408: {"error":{"message":"timeout","code":408}}
+2025-09-06 20:31:03,122 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:31:03,123 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 20:31:21,367 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:31:24,624 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 408 Request Timeout"
+2025-09-06 20:31:24,625 - root - ERROR - OpenRouter API HTTP error 408: {"error":{"message":"timeout","code":408}}
+2025-09-06 20:31:24,625 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:31:24,625 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 20:31:46,065 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:31:50,544 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-09-06 20:31:50,545 - root - ERROR - OpenRouter API HTTP error 400: {"error":{"message":"google/gemini-2.0-flash-thinking-exp:free is not a valid model ID","code":400},"user_id":"user_32Hty2vjbPtmqQpv4H1mQPQjFzm"}
+2025-09-06 20:31:50,545 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:31:50,545 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 20:32:01,130 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:32:04,354 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-09-06 20:32:04,355 - root - ERROR - OpenRouter API HTTP error 400: {"error":{"message":"google/gemini-2.0-flash-thinking-exp:free is not a valid model ID","code":400},"user_id":"user_32Hty2vjbPtmqQpv4H1mQPQjFzm"}
+2025-09-06 20:32:04,355 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:32:04,355 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 20:34:18,182 - root - INFO - MongoDB connection closed
+2025-09-06 20:34:18,182 - root - INFO - Application shutdown
+2025-09-06 20:34:22,715 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 20:34:22,732 - root - INFO - Connected to MongoDB successfully
+2025-09-06 20:34:22,733 - root - INFO - Application started
+2025-09-06 20:34:25,028 - root - INFO - MongoDB connection closed
+2025-09-06 20:34:25,029 - root - INFO - Application shutdown
+2025-09-06 20:34:30,971 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 20:34:30,990 - root - INFO - Connected to MongoDB successfully
+2025-09-06 20:34:30,990 - root - INFO - Application started
+2025-09-06 20:34:49,005 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:34:51,365 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-09-06 20:34:51,370 - root - ERROR - OpenRouter API HTTP error 400: {"error":{"message":"google/gemini-2.0-flash-thinking-exp:free is not a valid model ID","code":400},"user_id":"user_32Hty2vjbPtmqQpv4H1mQPQjFzm"}
+2025-09-06 20:34:51,370 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:34:51,371 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 20:35:02,519 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:35:05,598 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-09-06 20:35:05,599 - root - ERROR - OpenRouter API HTTP error 400: {"error":{"message":"google/gemini-2.0-flash-thinking-exp:free is not a valid model ID","code":400},"user_id":"user_32Hty2vjbPtmqQpv4H1mQPQjFzm"}
+2025-09-06 20:35:05,599 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:35:05,600 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 20:35:19,887 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:35:23,108 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 408 Request Timeout"
+2025-09-06 20:35:23,110 - root - ERROR - OpenRouter API HTTP error 408: {"error":{"message":"timeout","code":408}}
+2025-09-06 20:35:23,112 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:35:23,112 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 20:35:49,092 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:35:53,215 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 408 Request Timeout"
+2025-09-06 20:35:53,217 - root - ERROR - OpenRouter API HTTP error 408: {"error":{"message":"timeout","code":408}}
+2025-09-06 20:35:53,218 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:35:53,218 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 20:36:14,161 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:36:18,404 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 408 Request Timeout"
+2025-09-06 20:36:18,406 - root - ERROR - OpenRouter API HTTP error 408: {"error":{"message":"timeout","code":408}}
+2025-09-06 20:36:18,406 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:36:18,408 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 20:41:12,624 - root - INFO - MongoDB connection closed
+2025-09-06 20:41:12,624 - root - INFO - Application shutdown
+2025-09-06 20:41:15,008 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 20:41:15,051 - root - INFO - Connected to MongoDB successfully
+2025-09-06 20:41:15,051 - root - INFO - Application started
+2025-09-06 20:41:26,756 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:41:28,977 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-09-06 20:41:28,978 - root - ERROR - OpenRouter API HTTP error 400: {"error":{"message":"google/gemini-2.0-flash-free is not a valid model ID","code":400},"user_id":"user_32Hty2vjbPtmqQpv4H1mQPQjFzm"}
+2025-09-06 20:41:28,978 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:41:28,979 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 20:41:35,273 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:41:37,988 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-09-06 20:41:37,989 - root - ERROR - OpenRouter API HTTP error 400: {"error":{"message":"google/gemini-2.0-flash-free is not a valid model ID","code":400},"user_id":"user_32Hty2vjbPtmqQpv4H1mQPQjFzm"}
+2025-09-06 20:41:37,989 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:41:37,989 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 20:42:15,665 - root - INFO - MongoDB connection closed
+2025-09-06 20:42:15,666 - root - INFO - Application shutdown
+2025-09-06 20:42:18,185 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 20:42:18,226 - root - INFO - Connected to MongoDB successfully
+2025-09-06 20:42:18,227 - root - INFO - Application started
+2025-09-06 20:42:20,820 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:42:23,660 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-09-06 20:42:23,661 - root - ERROR - OpenRouter API HTTP error 400: {"error":{"message":"google/gemini-2.0-flash:free is not a valid model ID","code":400},"user_id":"user_32Hty2vjbPtmqQpv4H1mQPQjFzm"}
+2025-09-06 20:42:23,663 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:42:23,663 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 20:42:30,754 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:42:33,590 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-09-06 20:42:33,592 - root - ERROR - OpenRouter API HTTP error 400: {"error":{"message":"google/gemini-2.0-flash:free is not a valid model ID","code":400},"user_id":"user_32Hty2vjbPtmqQpv4H1mQPQjFzm"}
+2025-09-06 20:42:33,592 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:42:33,592 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 20:44:01,201 - root - INFO - MongoDB connection closed
+2025-09-06 20:44:01,201 - root - INFO - Application shutdown
+2025-09-06 20:44:03,926 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 20:44:03,945 - root - INFO - Connected to MongoDB successfully
+2025-09-06 20:44:03,945 - root - INFO - Application started
+2025-09-06 20:45:10,776 - root - INFO - MongoDB connection closed
+2025-09-06 20:45:10,777 - root - INFO - Application shutdown
+2025-09-06 20:45:12,672 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 20:45:12,708 - root - INFO - Connected to MongoDB successfully
+2025-09-06 20:45:12,708 - root - INFO - Application started
+2025-09-06 20:45:21,636 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:45:23,980 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-09-06 20:45:23,983 - root - ERROR - OpenRouter API HTTP error 404: {"error":{"message":"No endpoints found for google/gemini-2.5-flash:free.","code":404},"user_id":"user_32Hty2vjbPtmqQpv4H1mQPQjFzm"}
+2025-09-06 20:45:23,984 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:45:23,984 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 20:45:30,543 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:45:32,684 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-09-06 20:45:32,685 - root - ERROR - OpenRouter API HTTP error 404: {"error":{"message":"No endpoints found for google/gemini-2.5-flash:free.","code":404},"user_id":"user_32Hty2vjbPtmqQpv4H1mQPQjFzm"}
+2025-09-06 20:45:32,685 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:45:32,686 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 20:45:37,985 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:45:43,333 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 408 Request Timeout"
+2025-09-06 20:45:43,335 - root - ERROR - OpenRouter API HTTP error 408: {"error":{"message":"timeout","code":408}}
+2025-09-06 20:45:43,335 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:45:43,335 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 20:45:49,286 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:45:51,524 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-09-06 20:45:51,526 - root - ERROR - OpenRouter API HTTP error 404: {"error":{"message":"No endpoints found for google/gemini-2.5-flash:free.","code":404},"user_id":"user_32Hty2vjbPtmqQpv4H1mQPQjFzm"}
+2025-09-06 20:45:51,526 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:45:51,526 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 20:52:15,227 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:52:20,330 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 408 Request Timeout"
+2025-09-06 20:52:20,332 - root - ERROR - OpenRouter API HTTP error 408: {"error":{"message":"timeout","code":408}}
+2025-09-06 20:52:20,333 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:52:20,333 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 20:54:55,262 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 20:54:58,228 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-09-06 20:54:58,229 - root - ERROR - OpenRouter API HTTP error 404: {"error":{"message":"No endpoints found for google/gemini-2.5-flash:free.","code":404},"user_id":"user_32Hty2vjbPtmqQpv4H1mQPQjFzm"}
+2025-09-06 20:54:58,229 - root - ERROR - Conversations collection is not initialized
+2025-09-06 20:54:58,229 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-06 21:03:33,637 - root - INFO - Serving frontend from: C:\ai-health-chatbot\frontend
+2025-09-06 21:03:33,677 - root - INFO - Connected to MongoDB successfully
+2025-09-06 21:03:33,677 - root - INFO - Application started
+2025-09-06 21:03:42,257 - httpx - INFO - HTTP Request: POST http://localhost:5005/webhooks/rest/webhook "HTTP/1.1 200 OK"
+2025-09-06 21:03:46,193 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 408 Request Timeout"
+2025-09-06 21:03:46,194 - root - ERROR - OpenRouter API HTTP error 408: {"error":{"message":"timeout","code":408}}
+2025-09-06 21:03:46,194 - root - ERROR - Conversations collection is not initialized
+2025-09-06 21:03:46,195 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-08 11:25:09,157 - root - INFO - Serving frontend from: C:\Git\healtcare-chatbot\frontend
+2025-09-08 11:25:09,388 - root - ERROR - MongoDB connection error: The DNS query name does not exist: _mongodb._tcp.cluster0.ztkdeza3f.mongodb.net.
+2025-09-08 11:30:16,602 - root - INFO - Serving frontend from: C:\Git\healtcare-chatbot\frontend
+2025-09-08 11:30:16,887 - root - ERROR - MongoDB connection error: The DNS query name does not exist: _mongodb._tcp.cluster0.ztkdeza3f.mongodb.net.
+2025-09-08 11:34:19,098 - root - INFO - Serving frontend from: C:\Git\healtcare-chatbot\frontend
+2025-09-08 11:34:19,400 - root - ERROR - MongoDB connection error: The DNS query name does not exist: _mongodb._tcp.cluster0.ztkdeza3f.mongodb.net.
+2025-09-08 11:39:40,263 - root - INFO - Serving frontend from: C:\Git\healtcare-chatbot\frontend
+2025-09-08 11:39:41,968 - root - ERROR - MongoDB connection error: The DNS query name does not exist: _mongodb._tcp.cluster0.ztkdeza3f.mongodb.net.
+2025-09-08 11:42:51,779 - root - INFO - Serving frontend from: C:\Git\healtcare-chatbot\frontend
+2025-09-08 11:42:53,958 - root - INFO - Connected to MongoDB successfully
+2025-09-08 11:42:53,959 - root - INFO - Application started
+2025-09-08 11:43:05,122 - root - ERROR - Rasa API connection error: All connection attempts failed
+2025-09-08 11:43:05,123 - root - ERROR - RASA error: Rasa server not available
+2025-09-08 11:43:06,437 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-09-08 11:43:06,440 - root - ERROR - OpenRouter API HTTP error 401: {"error":{"message":"User not found.","code":401}}
+2025-09-08 11:43:06,441 - root - ERROR - Conversations collection is not initialized
+2025-09-08 11:43:06,442 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-08 11:43:14,108 - root - ERROR - Rasa API connection error: All connection attempts failed
+2025-09-08 11:43:14,109 - root - ERROR - RASA error: Rasa server not available
+2025-09-08 11:43:15,095 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-09-08 11:43:15,098 - root - ERROR - OpenRouter API HTTP error 401: {"error":{"message":"User not found.","code":401}}
+2025-09-08 11:43:15,099 - root - ERROR - Conversations collection is not initialized
+2025-09-08 11:43:15,100 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-08 11:43:27,596 - root - ERROR - Rasa API connection error: All connection attempts failed
+2025-09-08 11:43:27,597 - root - ERROR - RASA error: Rasa server not available
+2025-09-08 11:43:28,682 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-09-08 11:43:28,685 - root - ERROR - OpenRouter API HTTP error 401: {"error":{"message":"User not found.","code":401}}
+2025-09-08 11:43:28,686 - root - ERROR - Conversations collection is not initialized
+2025-09-08 11:43:28,687 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-08 11:44:03,866 - root - ERROR - Rasa API connection error: All connection attempts failed
+2025-09-08 11:44:03,867 - root - ERROR - RASA error: Rasa server not available
+2025-09-08 11:44:05,221 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-09-08 11:44:05,275 - root - ERROR - OpenRouter API HTTP error 401: {"error":{"message":"User not found.","code":401}}
+2025-09-08 11:44:05,276 - root - ERROR - Conversations collection is not initialized
+2025-09-08 11:44:05,277 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-08 11:45:03,241 - root - ERROR - Rasa API connection error: All connection attempts failed
+2025-09-08 11:45:03,242 - root - ERROR - RASA error: Rasa server not available
+2025-09-08 11:45:04,299 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-09-08 11:45:04,302 - root - ERROR - OpenRouter API HTTP error 401: {"error":{"message":"User not found.","code":401}}
+2025-09-08 11:45:04,303 - root - ERROR - Conversations collection is not initialized
+2025-09-08 11:45:04,304 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-08 11:45:21,871 - root - ERROR - Rasa API connection error: All connection attempts failed
+2025-09-08 11:45:21,872 - root - ERROR - RASA error: Rasa server not available
+2025-09-08 11:45:24,292 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-09-08 11:45:24,297 - root - ERROR - OpenRouter API HTTP error 401: {"error":{"message":"User not found.","code":401}}
+2025-09-08 11:45:24,298 - root - ERROR - Conversations collection is not initialized
+2025-09-08 11:45:24,299 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-08 11:45:38,775 - root - ERROR - Rasa API connection error: All connection attempts failed
+2025-09-08 11:45:38,776 - root - ERROR - RASA error: Rasa server not available
+2025-09-08 11:45:40,957 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-09-08 11:45:40,959 - root - ERROR - OpenRouter API HTTP error 401: {"error":{"message":"User not found.","code":401}}
+2025-09-08 11:45:40,960 - root - ERROR - Conversations collection is not initialized
+2025-09-08 11:45:40,960 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-08 11:46:04,010 - root - ERROR - Rasa API connection error: All connection attempts failed
+2025-09-08 11:46:04,012 - root - ERROR - RASA error: Rasa server not available
+2025-09-08 11:46:04,762 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-09-08 11:46:04,765 - root - ERROR - OpenRouter API HTTP error 401: {"error":{"message":"User not found.","code":401}}
+2025-09-08 11:46:04,766 - root - ERROR - Conversations collection is not initialized
+2025-09-08 11:46:04,766 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-08 19:30:01,126 - root - INFO - Serving frontend from: C:\Git\healtcare-chatbot\frontend
+2025-09-08 19:30:09,403 - root - INFO - Connected to MongoDB successfully
+2025-09-08 19:30:09,403 - root - INFO - Application started
+2025-09-08 19:30:26,108 - root - ERROR - Rasa API connection error: All connection attempts failed
+2025-09-08 19:30:26,108 - root - ERROR - RASA error: Rasa server not available
+2025-09-08 19:30:26,977 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-09-08 19:30:26,977 - root - ERROR - OpenRouter API HTTP error 401: {"error":{"message":"User not found.","code":401}}
+2025-09-08 19:30:26,977 - root - ERROR - Conversations collection is not initialized
+2025-09-08 19:30:26,977 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-08 19:34:53,091 - root - INFO - MongoDB connection closed
+2025-09-08 19:34:53,091 - root - INFO - Application shutdown
+2025-09-08 19:34:55,808 - root - INFO - Serving frontend from: C:\Git\healtcare-chatbot\frontend
+2025-09-08 19:34:59,635 - root - INFO - Connected to MongoDB successfully
+2025-09-08 19:34:59,636 - root - INFO - Application started
+2025-09-08 19:35:28,216 - root - INFO - MongoDB connection closed
+2025-09-08 19:35:28,217 - root - INFO - Application shutdown
+2025-09-08 19:35:29,996 - root - INFO - Serving frontend from: C:\Git\healtcare-chatbot\frontend
+2025-09-08 19:35:30,738 - root - INFO - Connected to MongoDB successfully
+2025-09-08 19:35:30,738 - root - INFO - Application started
+2025-09-08 19:42:22,507 - root - INFO - MongoDB connection closed
+2025-09-08 19:42:22,507 - root - INFO - Application shutdown
