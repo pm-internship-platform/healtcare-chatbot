@@ -1,0 +1,18 @@
+import pandas as pd
+import yaml
+
+# Load merged dataset
+df = pd.read_csv("datasets/merged_dataset.csv")
+
+# Create nlu.yml
+nlu_data = {"version": "3.1", "nlu": []}
+for _, row in df.iterrows():
+    symptoms = [col for col in df.columns[:-1] if row[col]==1]
+    intent = row['disease'].replace(" ", "_").lower()
+    text = " ".join(symptoms)
+    nlu_data["nlu"].append({"intent": intent, "examples": f"- {text}"})
+
+with open("rasa_bot/data/nlu.yml", "w") as f:
+    yaml.dump(nlu_data, f)
+
+print("Rasa nlu.yml generated!")
