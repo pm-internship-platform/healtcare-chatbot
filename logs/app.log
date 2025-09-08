@@ -766,3 +766,18 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 2025-09-08 19:35:30,738 - root - INFO - Application started
 2025-09-08 19:42:22,507 - root - INFO - MongoDB connection closed
 2025-09-08 19:42:22,507 - root - INFO - Application shutdown
+2025-09-08 19:42:24,620 - root - INFO - Serving frontend from: C:\Git\healtcare-chatbot\frontend
+2025-09-08 19:42:25,777 - root - INFO - Connected to MongoDB successfully
+2025-09-08 19:42:25,778 - root - INFO - Application started
+2025-09-08 19:44:24,894 - root - ERROR - Rasa API connection error: All connection attempts failed
+2025-09-08 19:44:24,894 - root - ERROR - RASA error: Rasa server not available
+2025-09-08 19:44:25,637 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-09-08 19:44:25,637 - root - ERROR - OpenRouter API HTTP error 401: {"error":{"message":"User not found.","code":401}}
+2025-09-08 19:44:25,637 - root - ERROR - Conversations collection is not initialized
+2025-09-08 19:44:25,637 - root - INFO - Chat processed for user anonymous, source: gemini
+2025-09-08 19:44:42,763 - root - ERROR - Rasa API connection error: All connection attempts failed
+2025-09-08 19:44:42,764 - root - ERROR - RASA error: Rasa server not available
+2025-09-08 19:44:43,242 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-09-08 19:44:43,242 - root - ERROR - OpenRouter API HTTP error 401: {"error":{"message":"User not found.","code":401}}
+2025-09-08 19:44:43,242 - root - ERROR - Conversations collection is not initialized
+2025-09-08 19:44:43,255 - root - INFO - Chat processed for user anonymous, source: gemini
