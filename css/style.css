@@ -1,3 +1,10 @@
+:root {
+  --bs-primary: #00796B;   /* Teal (healthcare feel) */
+  --bs-secondary: #004D40; /* Dark Teal */
+  --bs-white: #ffffff;
+  --bs-white: #ffffff;
+  --bg-primary: #ffffff;
+}
 
 /*** Spinner Start ***/
 /*** Spinner ***/
