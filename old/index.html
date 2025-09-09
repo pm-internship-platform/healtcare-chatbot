@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>National Health Chatbot Portal</title>
+  <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <!-- Add this in your <head> section -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Top Utility Bar -->
+    <div class="topbar">
+      <div class="left">
+        <span>🌐 Language: </span>
+        <select onchange="changeLanguage(this.value)">
+            <option value="en">English</option>
+            <option value="hi">हिन्दी</option>
+            <option value="ta">தமிழ்</option>
+            <option value="te">తెలుగు</option>
+        </select>
+      </div>
+      <div class="right">
+        <button onclick="changeFontSize('increase')">A+</button>
+        <button onclick="changeFontSize('reset')">A</button>
+        <button onclick="changeFontSize('decrease')">A-</button>
+      </div>
+    </div>
+
+  <!-- Government Header Bar -->
+  <header class="govbar">
+    <div class="logo">
+      <img src="https://www.francisxavier.ac.in/cs-content/themes/fxec/images/logo.png" alt="Emblem" />
+    </div>
+    <div class="title">
+      <h1 style="font-size: 180%;">Ministry of HealthCare</h1>
+      <p>Government of XXXXXX (Undertaken)</p>
+    </div>
+    <div class="userinfo">
+      <p>👤 Logged in: Guest</p>
+      <p id="time"></p>
+    </div>
+  </header>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar scroll</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Link
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Link</a>
+          </li>
+        </ul>
+
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Navigation -->
+  <button class="hamburger" onclick="toggleMenu()">☰</button>
+  <nav class="mainnav">
+    <a href="#">Home</a>
+    <a href="#about">Doctors</a>
+    <a href="#diseases">Hospitals</a>
+    <a href="#contact">About our department</a>
+  </nav>
+
+  <!-- Image Slider -->
+  <section class="slider">
+    <div class="slides fade">
+      <img src="https://scontent.fmaa12-3.fna.fbcdn.net/v/t39.30808-6/485389773_1080491357444952_6920735037421999207_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=xzs3_HxecA4Q7kNvwEhoxYi&_nc_oc=Admag6LVkaop0GNob6XdRsxavJ7XANHSg3z49G-ZAsUHSDLuRV2Nv-XZZbltxM6HtCDcY4Q5cpdZZSYxtELkdmzV&_nc_zt=23&_nc_ht=scontent.fmaa12-3.fna&_nc_gid=6pxUkek7gI35hzv1WfLhdA&oh=00_AfZL8Pi8OGh6fHI432ytffpas8h0dRzHokqnOd5V70thYA&oe=68BDE2F0" alt="Healthcare Awareness">
+    </div>
+    <div class="slides fade">
+      <img src="https://scontent.fmaa12-1.fna.fbcdn.net/v/t39.30808-6/485768167_1080914564069298_7856184681878957123_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=uw7ZMJnJHDUQ7kNvwHyeU9M&_nc_oc=Adnm8QMMws979lV_gpI1XWOsEeE7z0So0IO280fi_9TI-Ta-QPpkSSDXwRKS5-Vn--3NOfR0GbsXDKK01OGZ5VPb&_nc_zt=23&_nc_ht=scontent.fmaa12-1.fna&_nc_gid=19A6iPDqLnmvC1GtxB_7ng&oh=00_AfYVN7l_aJ_RuD8I-xZvvYHcr4f67LZfmSV5Bu0gDs8kWg&oe=68BDD7E4" alt="Public Health Program">
+    </div>
+    <div class="slides fade">
+      <img src="https://static.businessworld.in/Pic.1%20(1)_20240822184624_original_image_22.webp" alt="National Vaccination Drive">
+    </div>
+
+    <!-- Controls -->
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+    <!-- Dots -->
+    <div class="dots">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+  </section>
+
+  <!-- CTA: Chatbot -->
+  <section class="cta">
+    <h2>🩺 Try Our National Health Chatbot</h2>
+    <p>Instant health advice, symptom guidance, vaccination reminders, and emergency tips — available 24/7.</p>
+    <a href="chatbot.html" class="chatbot-btn">Launch Chatbot</a>
+  </section>
+
+  <!-- About the Ministry -->
+  <section id="ministry" class="content">
+    <h2>About the Ministry</h2>
+    <p>
+        Initially, the Ministry of Health and Family Welfare consisted of two departments, 
+        each led by a Secretary of the Government of India: the Department of Health and Family Welfare 
+        and the Department of Health Research. On August 7, 2014, through an extraordinary gazette 
+        notification, the Department of AIDS Control was merged with the Department of Health and Family Welfare 
+        and is now known as the National AIDS Control Organization (NACO).
+    </p>
+
+    <h3>The Two Departments of the Ministry are as follows:</h3>
+    <div class="departments">
+        <button>Department of Health and Family Welfare</button>
+        <button>Department of Health Research</button>
+    </div>
+
+    <h3>Attached Offices</h3>
+    <ol>
+        <li>
+        <strong>Directorate General of Health Services (DGHS):</strong> 
+        Provides technical advice on medical and public health matters and supports implementation 
+        of health services nationwide.
+        </li>
+        <li>
+        <strong>National Health Authority:</strong> 
+        Implements <em>Ayushman Bharat – Pradhan Mantri Jan Arogya Yojana</em> and leads 
+        the <em>National Digital Health Mission</em>.
+        </li>
+    </ol>
+    </section>
+
+    <!-- Ministers Section -->
+    <section id="ministers" class="content highlight">
+    <h2>Hon’ble Ministers</h2>
+    <div class="minister-cards">
+        <div class="minister-card">
+        <img src="minister1.jpg" alt="Minister 1">
+        <h3>Shri Jagat Prakash Nadda</h3>
+        <p>Hon’ble Minister of Health & Family Welfare and Chemicals & Fertilizers</p>
+        <a href="#" class="portfolio-btn">View Portfolio</a>
+        </div>
+
+        <div class="minister-card">
+        <img src="minister2.jpg" alt="Minister 2">
+        <h3>Shri Prataprao Jadhav</h3>
+        <p>Hon’ble Minister of State (Independent Charge) Ministry of AYUSH and Minister of State of Health & Family Welfare</p>
+        <a href="#" class="portfolio-btn">View Portfolio</a>
+        </div>
+
+        <div class="minister-card">
+        <img src="minister3.jpg" alt="Minister 3">
+        <h3>Smt. Anupriya Patel</h3>
+        <p>Hon’ble Minister of State for Health & Family Welfare and Chemicals & Fertilizers</p>
+        <a href="#" class="portfolio-btn">View Portfolio</a>
+        </div>
+    </div>
+    </section>
+
+    <!-- Press Section -->
+    <section id="press" class="content">
+    <h2>Press & Media</h2>
+    <div class="press-links">
+        <div class="press-box">
+        <h3>Press Releases</h3>
+        <a href="#">Releases in English</a> | 
+        <a href="#">Releases in Hindi</a>
+        </div>
+        <div class="press-box">
+        <h3>Press Photos</h3>
+        <a href="#">Photos (English Caption)</a> | 
+        <a href="#">Photos (Hindi Caption)</a>
+        </div>
+    </div>
+    </section>
+
+    <!-- News & Highlights -->
+    <section id="news" class="content highlight">
+    <h2>News & Highlights</h2>
+    <p>Latest updates on government health initiatives, vaccination drives, and awareness programs.</p>
+    </section>
+
+    <section id="videos" class="content">
+    <h2>Videos</h2>
+    <p>Watch awareness campaigns, health program launches, and success stories.</p>
+    </section>
+
+    <section id="photos" class="content highlight">
+    <h2>Photo Gallery</h2>
+    <p>Browse images from national healthcare programs, events, and initiatives.</p>
+    </section>
+
+  <!-- About -->
+  <section id="about" class="content">
+    <h2>Welcome to the National Health Chatbot Portal</h2>
+    <p>
+      This official healthcare platform offers reliable health information, AI-driven chatbot support, and preventive care guidance. 
+      Citizens can access personalized tips on <strong>disease prevention, nutrition, vaccinations, mental health, maternal care, child wellness, and elderly support</strong>. 
+      Our mission is to improve healthcare accessibility, awareness, and timely guidance for every citizen.
+    </p>
+    <p>
+      Services include:
+      <ul>
+        <li>✔️ 24/7 AI Health Chatbot Assistance</li>
+        <li>✔️ Telemedicine & Remote Consultation Support</li>
+        <li>✔️ Vaccination Awareness & Reminders</li>
+        <li>✔️ Preventive Health Checkup Guidelines</li>
+        <li>✔️ Mental Health Resources</li>
+        <li>✔️ Emergency First Aid Instructions</li>
+      </ul>
+    </p>
+  </section>
+
+  <!-- Prevent Diseases -->
+  <section id="diseases" class="content highlight">
+    <h2>How to Prevent Common Diseases</h2>
+    <ul>
+      <li>✔️ Wash hands regularly with soap & sanitizer</li>
+      <li>✔️ Eat a balanced, nutritious diet with fruits & vegetables</li>
+      <li>✔️ Stay physically active — at least 30 minutes daily</li>
+      <li>✔️ Drink safe and clean water</li>
+      <li>✔️ Follow vaccination schedules on time</li>
+      <li>✔️ Get regular health checkups</li>
+      <li>✔️ Wear masks in crowded or polluted areas</li>
+      <li>✔️ Manage stress & practice good mental health habits</li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Ministry of Healthcare | Government of XXXXX</p>
+  </footer>
+
+  <!-- Floating Chatbot Button -->
+  <button id="chatbot-toggle">🤖</button>
+
+  <!-- Embedded Chatbot Widget -->
+  <div id="chatbot-container">
+    <div id="chatbot-widget">
+      <!-- (All chatbot.html styles and markup here, trimmed for brevity) -->
+      <div class="chat-header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Emblem_of_India.svg" alt="Emblem">
+        <div class="titles">
+          <div class="name">Health Assistant</div>
+          <div class="sub">Ministry of Health • Online</div>
+        </div>
+      </div>
+
+      <div class="chat-body" id="chatlog">
+        <div class="day-divider">Today</div>
+        <div class="msg bot">
+          👋 Namaste! I’m your healthcare assistant. Ask about symptoms, prevention tips, or services.
+          <div class="meta"><span class="time">09:00</span></div>
+        </div>
+      </div>
+
+      <div class="chat-input">
+        <button class="icon-btn" title="Attach">📎</button>
+        <div class="field">
+          <input id="chatInput" type="text" placeholder="Type a message…" autocomplete="off" />
+        </div>
+        <button id="sendBtn" class="send-btn">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Toggle chatbot open/close
+    const toggleBtn = document.getElementById("chatbot-toggle");
+    const chatbotBox = document.getElementById("chatbot-container");
+    toggleBtn.addEventListener("click", () => {
+      chatbotBox.classList.toggle("show");
+    });
+
+    // Simple chatbot interaction
+    const chatlog = document.getElementById("chatlog");
+    const input = document.getElementById("chatInput");
+    const sendBtn = document.getElementById("sendBtn");
+
+    function nowTime(){
+      const d = new Date();
+      return d.toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
+    }
+    function addMsg(role, text){
+      const wrap = document.createElement("div");
+      wrap.className = "msg " + role;
+      wrap.innerHTML = `${text}<div class="meta"><span class="time">${nowTime()}</span></div>`;
+      chatlog.appendChild(wrap);
+      chatlog.scrollTop = chatlog.scrollHeight;
+    }
+    sendBtn.onclick = () => {
+      if(input.value.trim()!==""){
+        addMsg("user", input.value);
+        input.value="";
+        setTimeout(()=>addMsg("bot","✅ Got your query! (Demo reply)"),1000);
+      }
+    };
+
+    function toggleMenu() {
+      document.querySelector('.mainnav').classList.toggle('show');
+    }
+
+  </script>
+
+</body>
+</html>
