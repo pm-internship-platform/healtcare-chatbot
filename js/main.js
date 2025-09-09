@@ -177,3 +177,42 @@
 
 })(jQuery);
 
+const chatToggle = document.getElementById("chat-toggle");
+const chatbox = document.getElementById("chatbox");
+const closeChat = document.getElementById("close-chat");
+const sendBtn = document.getElementById("send-btn");
+const chatInput = document.getElementById("chat-input");
+const chatBody = document.getElementById("chat-body");
+
+chatToggle.addEventListener("click", () => {
+    chatbox.style.display = chatbox.style.display === "flex" ? "none" : "flex";
+});
+
+closeChat.addEventListener("click", () => {
+    chatbox.style.display = "none";
+});
+
+function addMessage(sender, text) {
+    let msg = document.createElement("div");
+    msg.classList.add("message", sender);
+    msg.innerHTML = `<p>${text}</p>`;
+    chatBody.appendChild(msg);
+    chatBody.scrollTop = chatBody.scrollHeight;
+}
+
+sendBtn.addEventListener("click", () => {
+    let text = chatInput.value.trim();
+    if (text) {
+        addMessage("user", text);
+        chatInput.value = "";
+
+        // Dummy bot reply (replace later with backend call)
+        setTimeout(() => {
+            addMessage("bot", "🤖 I'm a bot! You said: " + text);
+        }, 600);
+    }
+});
+
+chatInput.addEventListener("keypress", (e) => {
+    if (e.key === "Enter") sendBtn.click();
+});
