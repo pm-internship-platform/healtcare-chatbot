@@ -985,3 +985,29 @@
     background: var(--bs-primary) !important;
 }
 /*** copyright end ***/
+
+.scheme-item p {
+        text-align: justify;
+    }
+
+    .img-container {
+  width: 100%;            /* responsive to parent column */
+  max-width: 600px;       /* never wider than 600px on large screens */
+  aspect-ratio: 600 / 300; /* keeps 2:1 box ratio (600x300) and scales with width */
+  overflow: hidden;
+  background: #eee;       /* placeholder bg while image loads */
+}
+
+/* Image fills the container fully and will be distorted to match the box */
+.img-container img.img-stretch {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: fill;       /* FILL = stretch (distort) to width & height */
+  object-position: center;
+}
+
+#heading_color
+{
+    color: var(--bs-white);
+}
