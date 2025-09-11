@@ -141,66 +141,129 @@
     <!-- Topbar End -->
 
     <!-- Login Page Content Starts here -->
-    <div class="container-fluid nav-bar p-0">
-        
-    </div>
-    <!-- Login Page Content Ends here -->
+   <!-- Login Page Starts Here -->
+<div class="d-flex justify-content-center align-items-center"
+     style="min-height: 80vh; background: linear-gradient(to right, #007bff, #00c6ff);">
 
-    <!-- Carousel Start -->
-    <div class="container-fluid carousel bg-light px-0">
-        <div class="row g-0 justify-content-end">
-            <div class="col-12 col-lg-7 col-xl-9">
-                <div class="header-carousel owl-carousel bg-light py-5">
-                    <div class="row g-0 header-carousel-item align-items-center">
-                        <div class="col-xl-6 carousel-img wow fadeInLeft" data-wow-delay="0.1s">
-                            <img src="img/carousel-1.png" class="img-fluid w-100" alt="Image">
-                        </div>
-                        <div class="col-xl-6 carousel-content p-4">
-                            <h4 class="text-uppercase fw-bold mb-4 wow fadeInRight" data-wow-delay="0.1s"
-                                style="letter-spacing: 3px;">Where Tech Meets Care</h4>
-                            <h1 class="display-3 text-capitalize mb-4 wow fadeInRight" data-wow-delay="0.3s">Bridging advanced AI technology with Medical field</h1>
-                            <p class="text-dark wow fadeInRight" data-wow-delay="0.5s">Smarter healthcare, powered by innovation</p>
-                            <a class="btn btn-primary rounded-pill py-3 px-5 wow fadeInRight" data-wow-delay="0.7s"
-                                href="#">Shop Now</a>
-                        </div>
-                    </div>
-                    <div class="row g-0 header-carousel-item align-items-center">
-                        <div class="col-xl-6 carousel-img wow fadeInLeft" data-wow-delay="0.1s">
-                            <img src="img/carousel-2.webp" class="img-fluid w-100" alt="Image">
-                        </div>
-                        <div class="col-xl-6 carousel-content p-4">
-                            <h4 class="text-uppercase fw-bold mb-4 wow fadeInRight" data-wow-delay="0.1s"
-                                style="letter-spacing: 3px;">Health Answers, Instantly</h4>
-                            <h1 class="display-3 text-capitalize mb-4 wow fadeInRight" data-wow-delay="0.3s">Your AI-powered medical chatbot</h1>
-                            <p class="text-dark wow fadeInRight" data-wow-delay="0.5s">Because your health deserves quick, smart care.</p>
-                            <a class="btn btn-primary rounded-pill py-3 px-5 wow fadeInRight" data-wow-delay="0.7s"
-                                href="#">Shop Now</a>
-                        </div>
-                    </div>
+  <!-- Login/Register Page Starts Here -->
+<div class="d-flex justify-content-center align-items-center"
+     style="min-height: 100vh; background: transparent;">  <!-- Removed fixed blue bg -->
+
+  <div class="card shadow-lg p-5"
+       style="max-width: 550px; width: 100%; border-radius: 20px; min-height: 650px;">
+    <div class="card-body d-flex flex-column">
+
+      <!-- Nav Tabs -->
+      <ul class="nav nav-pills nav-justified mb-4" id="loginRegisterTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active fw-bold" id="login-tab" data-bs-toggle="tab"
+            data-bs-target="#login" type="button" role="tab">Login</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link fw-bold" id="register-tab" data-bs-toggle="tab"
+            data-bs-target="#register" type="button" role="tab">Register</button>
+        </li>
+      </ul>
+
+      <!-- Tab Content -->
+      <div class="tab-content flex-grow-1" id="loginRegisterContent">
+        
+        <!-- Login Form -->
+        <div class="tab-pane fade show active h-100" id="login" role="tabpanel">
+          <h3 class="text-center mb-4 text-primary fw-bold">Login</h3>
+          <form class="h-100 d-flex flex-column justify-content-between">
+            <div>
+              <div class="mb-4">
+                <label for="login-email" class="form-label fw-bold">Email</label>
+                <input type="email" class="form-control form-control-lg" id="login-email"
+                       placeholder="Enter your email" required>
+              </div>
+              <div class="mb-4">
+                <label for="login-password" class="form-label fw-bold">Password</label>
+                <input type="password" class="form-control form-control-lg" id="login-password"
+                       placeholder="Enter your password" required>
+              </div>
+              <div class="d-flex justify-content-between align-items-center mb-4">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="remember">
+                  <label class="form-check-label" for="remember">Remember Me</label>
                 </div>
+                <a href="#" style="text-decoration: none; font-size: 0.9rem;">Forgot Password?</a>
+              </div>
             </div>
-            <div class="col-12 col-lg-5 col-xl-3 wow fadeInRight" data-wow-delay="0.1s">
-                <div class="carousel-header-banner h-100">
-                    <img src="img/header-img.webp" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="Image">
-                    <div class="carousel-banner-offer">
-                        <p class="bg-primary text-white rounded fs-5 py-2 px-4 mb-0 me-3">Try our chatbot</p>
-                        <!-- <p class="text-primary fs-5 fw-bold mb-0">Special Offer</p> -->
-                    </div>
-                    <div class="carousel-banner">
-                        <div class="carousel-banner-content text-center p-4">
-                            <!-- <a href="#" class="d-block mb-2">SmartPhone</a> -->
-                            <a href="#" class="d-block text-white fs-3" style="font-weight: bolder;"> GreenChat <br> </a>
-                            <!-- <del class="me-2 text-white fs-5">$1,250.00</del> -->
-                            <span class="text-primary fs-5" style="background-color: aliceblue;">.   A Virtual CareTaker   .</span>
-                        </div>
-                        <a onclick="openChatbox()" class="btn btn-primary rounded-pill py-2 px-4" ><i
-                                class="fa fa-mobile-alt me-2"></i> Try ChatBot</a>
-                    </div>
-                </div>
+            <div>
+              <div class="d-grid mb-3">
+                <button type="submit" class="btn btn-primary rounded-pill py-3 fs-5">Login</button>
+              </div>
+              <p class="text-center mt-3 mb-0">Don’t have an account?
+                <a href="#" class="text-primary fw-bold" onclick="document.getElementById('register-tab').click()">Sign Up</a>
+              </p>
             </div>
+          </form>
         </div>
+
+        <!-- Register Form -->
+        <div class="tab-pane fade h-100" id="register" role="tabpanel">
+          <h3 class="text-center mb-4 text-primary fw-bold">Register</h3>
+          <form class="h-100 d-flex flex-column justify-content-between">
+            <div>
+              <div class="mb-4">
+                <label for="reg-name" class="form-label fw-bold">Full Name</label>
+                <input type="text" class="form-control form-control-lg" id="reg-name"
+                       placeholder="Enter your full name" required>
+              </div>
+              <div class="mb-4">
+                <label for="reg-email" class="form-label fw-bold">Email</label>
+                <input type="email" class="form-control form-control-lg" id="reg-email"
+                       placeholder="Enter your email" required>
+              </div>
+              <div class="mb-4">
+                <label for="reg-password" class="form-label fw-bold">Password</label>
+                <input type="password" class="form-control form-control-lg" id="reg-password"
+                       placeholder="Create a password" required>
+              </div>
+              <div class="mb-4">
+                <label for="reg-confirm-password" class="form-label fw-bold">Confirm Password</label>
+                <input type="password" class="form-control form-control-lg" id="reg-confirm-password"
+                       placeholder="Confirm your password" required>
+              </div>
+            </div>
+            <div>
+              <div class="d-grid mb-3">
+                <button type="submit" class="btn btn-success rounded-pill py-3 fs-5">Register</button>
+              </div>
+              <p class="text-center mt-3 mb-0">Already have an account?
+                <a href="#" class="text-primary fw-bold" onclick="document.getElementById('login-tab').click()">Login</a>
+              </p>
+            </div>
+          </form>
+        </div>
+
+      </div>
     </div>
-    <!-- Carousel End -->
+  </div>
+</div>
+<script>
+  // Redirect after login
+  document.querySelector("#login form").addEventListener("submit", function(e) {
+    e.preventDefault();
+    window.location.href = "C:/Git/healtcare-chatbot/index.html"; // your homepage
+  });
+
+  // Redirect after register
+  document.querySelector("#register form").addEventListener("submit", function(e) {
+    e.preventDefault();
+    window.location.href = "C:/Git/healtcare-chatbot/index.html"; // your homepage
+  });
+</script>
+
+<!-- Login/Register Page Ends Here -->
+
+</div>
+<!-- Login Page Ends Here -->
+
+
+   
 
 
     <!-- Footer Start -->
